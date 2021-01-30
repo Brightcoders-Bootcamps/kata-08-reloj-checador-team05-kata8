@@ -1,0 +1,9 @@
+<% flash.each do |type, msg| %>
+  <div>
+    <%= msg %>
+  </div>
+<% end %>
+<%= form_with model: @check do |form| %>
+    <%= form.number_field :private_number %>
+    <%= form.submit %>
+<% end %>
