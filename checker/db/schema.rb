@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 2021_01_30_002907) do
   enable_extension "plpgsql"
 
   create_table "checks", force: :cascade do |t|
-    t.integer "type"
+    t.integer "type_check"
     t.bigint "user_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
