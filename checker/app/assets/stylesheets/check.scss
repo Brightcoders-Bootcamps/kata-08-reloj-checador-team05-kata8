@@ -8,6 +8,10 @@ body {
     flex-direction: column;
     justify-content: center;
 }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    display: none;
+}
 .button-primary{
     background-color: #364F6B;
     color: white;
