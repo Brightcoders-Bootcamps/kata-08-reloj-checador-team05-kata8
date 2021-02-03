@@ -5,23 +5,35 @@ class ChecksController < ApplicationController
     end
 
     def create
-        check_p = check_params
-        private_number = check_params[:private_number]
-        user = User.where('private_number = ?', [private_number])[0]
-        return if user?(user) == false
-        type_check = get_type_check(user[:id])
-        if type_check != :checked
-            checked_created = user.checks.create({type_check: type_check})
-            msg = type_check == 1 ? "Check In! #{checked_created[:created_at].to_s}" : "Check Out! #{checked_created[:created_at].to_s}"
-            redirect_to checks_path, notice: msg
-        else
-            redirect_to checks_path, notice: ("You have already checked")
+        
+        begin
+            check_p = check_params
+            private_number = check_params[:private_number]
+            user = User.where('private_number = ?', [private_number])[0]
+            return if user?(user) == false
+            type_check = get_type_check(user[:id])
+            if type_check != :checked
+                checked_created = user.checks.create({type_check: type_check})
+                msg = type_check == 1 ? "Check In at #{checked_created[:created_at].to_s}" : "Check Out at #{checked_created[:created_at].to_s}"
+                flash[:notice] = msg
+                redirect_to checks_path
+            else
+                flash[:notice] = "You have already checked"
+                redirect_to checks_path
+            end
+        rescue Exception => e
+                
+            flash[:alert] = "An error has ocurred. Try it later."
+            redirect_to checks_path
         end
+        
     end
 
     def user?(user)
         if user == nil
-            redirect_to checks_path, notice: ("The private number doesn't exist") 
+            @error = true
+            flash[:alert] = "The private number doesn't exist"
+            redirect_to checks_path 
             return false
         end
         return true
