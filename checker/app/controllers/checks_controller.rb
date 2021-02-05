@@ -40,7 +40,8 @@ class ChecksController < ApplicationController
     end
 
     def get_type_check(user_id)
-        checks = Check.where("user_id = ? and to_char(created_at, 'dd-mm-YYYY') = ?", 1, Time.now.strftime("%d-%m-%Y"))
+        print "user id #{user_id}"
+        checks = Check.where("user_id = ? and to_char(created_at, 'dd-mm-YYYY') = ?", user_id, Time.now.strftime("%d-%m-%Y"))
         if checks.empty?
             return 1 
         elsif checks.length == 1
@@ -48,6 +49,7 @@ class ChecksController < ApplicationController
         else
             return :checked
         end
+        logger.info "checks #{checks.length.to_s}"
     end
 
     def check_params
