@@ -34,6 +34,9 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem 'bootstrap-sass'
 gem "bootstrap_form", "~> 4.0"
 gem 'devise'
+gem 'activeadmin'
+gem 'arctic_admin'
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
