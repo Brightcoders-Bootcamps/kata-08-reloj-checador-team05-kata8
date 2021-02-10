@@ -2,14 +2,16 @@
       <thead>
         <tr>
           <th>Name</th>
-          <th>Fecha</th>
+          <th>Private Number</th>
+          <th>Absences</th>
         <tr>
       </thead>
     <tbody>
-      <% @checks_per_day.each do |user| %>
+      <% @month_absences.each do |user| %>
         <tr>
-          <td><%= user.name %></td>
-          <td><%= user.created_at %></td>
+          <td><%= user["private_number"] %></td>
+          <td><%= user["name"] %></td>
+          <td><%= user["absences"]%></td>
         </tr>
       <%end%>
     </tbody>
