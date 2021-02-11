@@ -3443,3 +3443,40 @@ Processing by Admin::ReportsController#index as HTML
 Completed 200 OK in 39ms (Views: 32.1ms | ActiveRecord: 1.4ms | Allocations: 29511)
 
 
+Started GET "/admin/reports" for 172.20.0.1 at 2021-02-11 02:05:57 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Admin::ReportsController#index as HTML
+Completed 401 Unauthorized in 7ms (ActiveRecord: 0.0ms | Allocations: 3346)
+
+
+Started GET "/admin/login" for 172.20.0.1 at 2021-02-11 02:05:57 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/devise/shared/_links.erb (Duration: 1.3ms | Allocations: 595)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (Duration: 21.3ms | Allocations: 11298)
+Completed 200 OK in 3783ms (Views: 3757.9ms | ActiveRecord: 7.2ms | Allocations: 594219)
+
+
+Started POST "/admin/login" for 172.20.0.1 at 2021-02-11 02:06:29 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"ZQ4YiPPziksURD82HZE7wJbpn2ET/uGCXwxmKa0Kr5vBEoF+XY98QlpszezblO66R2rq9qcgiSLCaugizv21Eg==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[36mAdminUser Load (1.3ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+Redirected to http://127.0.0.1:3000/admin/reports
+Completed 302 Found in 230ms (ActiveRecord: 1.7ms | Allocations: 8132)
+
+
+Started GET "/admin/reports" for 172.20.0.1 at 2021-02-11 02:06:29 +0000
+Cannot render console from 172.20.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::ReportsController#index as HTML
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (6.5ms)[0m  [1m[34mSELECT * FROM absences(2);[0m
+  ↳ app/admin/reports.rb:7:in `index'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  Rendered admin/reports/_reports.html.erb (Duration: 1.1ms | Allocations: 224)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 46.7ms | Allocations: 27638)
+Completed 200 OK in 68ms (Views: 48.8ms | ActiveRecord: 7.0ms | Allocations: 32077)
+
+
