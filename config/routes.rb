@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
+  root 'checks#show'
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
-  #get '/checks', to: 'checks#index'
+  #get '/checks', to: 
   resource :checks
 end
