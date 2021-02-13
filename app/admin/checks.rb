@@ -4,7 +4,7 @@ ActiveAdmin.register Check do
   #
   # Uncomment all parameters which should be permitted for assignment
   #
-  # permit_params :type_check, :user_id
+  permit_params :type_check, :user_id
   #
   # or
   #
@@ -13,7 +13,9 @@ ActiveAdmin.register Check do
   #   permitted << :other if params[:action] == 'create' && current_user.admin?
   #   permitted
   # end
-
+  filter :type_check, as: :select, :collection => [['Check in', 1], ['Check out', 2], ['All', nil]], :include_blank => false
+  filter :created_at, as: :date_range
+  
   form title: 'New Check' do |f|
     f.input :user_id, :as => :select, :collection => User.all.map {|u| [u.name, u.id]}, :include_blank => false
     f.input :type_check, :as => :select, :collection => [['Check in', 1], ['Check out', 2]], :include_blank => false
@@ -45,5 +47,4 @@ ActiveAdmin.register Check do
     end
     active_admin_comments
   end
-  
 end

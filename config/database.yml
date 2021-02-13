@@ -8,12 +8,12 @@ default: &default
 
 development:
   <<: *default
-  database: checkerdb_development
+  database: checker_db_development
 
 test:
   <<: *default
-  database: checkerdb_test
+  database: checker_db_test
 
 production:
   <<: *default
-  database: checkerdb_production
+  database: checker_db_production

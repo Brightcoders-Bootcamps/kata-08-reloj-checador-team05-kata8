@@ -1,0 +1,37 @@
+<div class="container-report">
+    <%= form_tag( '/admin/attendences' , method: "post", class: "form-report") do |f| %>
+     <%months = (1..12).map {|value| [Date::MONTHNAMES[value], value] } %>
+        <input type="hidden" name="abs">
+        <label>Month</label>
+        <select name="month">
+            <%= options_for_select(months, @month != "" ? @month : 1) %>
+        </select>
+    <%= submit_tag("Get Report") %>
+    <% end %>
+    <div class="report-average">
+        <div class="lbl-avg">Check In Average: <span><%= @avg_in%></span></div>
+        <div class="lbl-avg">Check Out Average: <span><%= @avg_out%></span></div>
+    </div>
+</div>
+<table>
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>User</th>
+            <th>Check Type</th>
+            <th>Created At</th>
+            <th>Updated At</th>
+        <tr>
+    </thead>
+    <tbody>
+        <% @report.each do |element| %>
+        <tr>
+            <td><%= element[:id] %></td>
+            <td><%= User.find(element[:user_id])[:name] %></td>
+            <td><%= element[:type_check] == 1 ? "Check in" : "Check out" %></td>
+            <td><%= element[:created_at] %></td>
+            <td><%= element[:updated_at] %></td>
+        </tr>
+        <%end%>
+    </tbody>
+</table>

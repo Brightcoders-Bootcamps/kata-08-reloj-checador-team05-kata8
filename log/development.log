@@ -3480,3 +3480,2235 @@ Processing by Admin::ReportsController#index as HTML
 Completed 200 OK in 68ms (Views: 48.8ms | ActiveRecord: 7.0ms | Allocations: 32077)
 
 
+Started GET "/admin" for 172.18.0.1 at 2021-02-13 01:58:58 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "checkerdb_development" does not exist
+):
+  
+activerecord (6.0.3.4) lib/active_record/connection_adapters/postgresql_adapter.rb:50:in `rescue in postgresql_connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/postgresql_adapter.rb:33:in `postgresql_connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:887:in `new_connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `checkout_new_connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:910:in `try_to_checkout_new_connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:871:in `acquire_connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:593:in `checkout'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:437:in `connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:1119:in `retrieve_connection'
+activerecord (6.0.3.4) lib/active_record/connection_handling.rb:221:in `retrieve_connection'
+activerecord (6.0.3.4) lib/active_record/connection_handling.rb:189:in `connection'
+activerecord (6.0.3.4) lib/active_record/migration.rb:562:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.4) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/admin" for 172.18.0.1 at 2021-02-13 01:59:21 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "checkerdb_development" does not exist
+):
+  
+activerecord (6.0.3.4) lib/active_record/connection_adapters/postgresql_adapter.rb:50:in `rescue in postgresql_connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/postgresql_adapter.rb:33:in `postgresql_connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:887:in `new_connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `checkout_new_connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:910:in `try_to_checkout_new_connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:871:in `acquire_connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:593:in `checkout'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:437:in `connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:1119:in `retrieve_connection'
+activerecord (6.0.3.4) lib/active_record/connection_handling.rb:221:in `retrieve_connection'
+activerecord (6.0.3.4) lib/active_record/connection_handling.rb:189:in `connection'
+activerecord (6.0.3.4) lib/active_record/migration.rb:562:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.4) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/admin" for 172.18.0.1 at 2021-02-13 02:00:38 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (29.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Admin::DashboardController#index as HTML
+Completed 401 Unauthorized in 16ms (ActiveRecord: 0.0ms | Allocations: 3207)
+
+
+Started GET "/admin/login" for 172.18.0.1 at 2021-02-13 02:00:39 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/devise/shared/_links.erb (Duration: 2.3ms | Allocations: 595)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (Duration: 81.8ms | Allocations: 11204)
+Completed 200 OK in 6777ms (Views: 6730.4ms | ActiveRecord: 20.4ms | Allocations: 593944)
+
+
+Started POST "/admin/login" for 172.18.0.1 at 2021-02-13 02:00:51 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"SPaD/umOIJx6YtlA0FU8wcNH+d3hO3cLox6Pb1khRh7eRlYXBV3GfT6padxEGAAGrHn7qgt0gpy/VGs0YGJbCQ==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[36mAdminUser Load (85.1ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/admin
+Completed 302 Found in 613ms (ActiveRecord: 85.4ms | Allocations: 7770)
+
+
+Started GET "/admin" for 172.18.0.1 at 2021-02-13 02:00:52 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::DashboardController#index as HTML
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 65.9ms | Allocations: 27328)
+Completed 200 OK in 97ms (Views: 69.0ms | ActiveRecord: 0.4ms | Allocations: 30756)
+
+
+Started GET "/admin/reports" for 172.18.0.1 at 2021-02-13 02:00:55 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::ReportsController#index as HTML
+  [1m[36mAdminUser Load (0.7ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (391.6ms)[0m  [1m[34mSELECT * FROM absences(2);[0m
+  ↳ app/admin/reports.rb:7:in `index'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  Rendered admin/reports/_reports.html.erb (Duration: 0.8ms | Allocations: 208)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 54.9ms | Allocations: 26149)
+Completed 200 OK in 458ms (Views: 57.2ms | ActiveRecord: 392.3ms | Allocations: 29402)
+
+
+Started GET "/admin/absences" for 172.18.0.1 at 2021-02-13 02:00:57 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AbsencesController#index as HTML
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT * FROM absences(2);[0m
+  ↳ app/admin/absences.rb:12:in `absences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  Rendered admin/absences/_absences.html.erb (Duration: 1.6ms | Allocations: 804)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 62.7ms | Allocations: 26731)
+Completed 200 OK in 72ms (Views: 64.2ms | ActiveRecord: 1.5ms | Allocations: 29939)
+
+
+Started GET "/admin/attendences" for 172.18.0.1 at 2021-02-13 02:00:58 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AttendencesController#index as HTML
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCheck Load (1.4ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 1)[0m
+  ↳ app/admin/attendences.rb:13:in `attendences'
+  [1m[36mCheck Load (0.7ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 2)[0m
+  ↳ app/admin/attendences.rb:14:in `attendences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  [1m[36mCheck Load (0.5ms)[0m  [1m[34mSELECT "checks".* FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2)[0m
+  ↳ app/views/admin/attendences/_attendences.html.erb:27
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  Rendered admin/attendences/_attendences.html.erb (Duration: 31.5ms | Allocations: 8846)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 82.3ms | Allocations: 34763)
+Completed 200 OK in 112ms (Views: 78.1ms | ActiveRecord: 16.2ms | Allocations: 42051)
+
+
+Started GET "/admin/absences" for 172.18.0.1 at 2021-02-13 02:00:59 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AbsencesController#index as HTML
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT * FROM absences(2);[0m
+  ↳ app/admin/absences.rb:12:in `absences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  Rendered admin/absences/_absences.html.erb (Duration: 1.2ms | Allocations: 446)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 65.4ms | Allocations: 26107)
+Completed 200 OK in 73ms (Views: 66.3ms | ActiveRecord: 1.5ms | Allocations: 28478)
+
+
+Started GET "/admin/absences" for 172.18.0.1 at 2021-02-13 02:01:02 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AbsencesController#index as HTML
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT * FROM absences(2);[0m
+  ↳ app/admin/absences.rb:12:in `absences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  Rendered admin/absences/_absences.html.erb (Duration: 0.9ms | Allocations: 446)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 63.7ms | Allocations: 26107)
+Completed 200 OK in 72ms (Views: 64.8ms | ActiveRecord: 1.7ms | Allocations: 28482)
+
+
+Started GET "/admin/attendences" for 172.18.0.1 at 2021-02-13 02:01:03 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AttendencesController#index as HTML
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCheck Load (0.8ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 1)[0m
+  ↳ app/admin/attendences.rb:13:in `attendences'
+  [1m[36mCheck Load (0.6ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 2)[0m
+  ↳ app/admin/attendences.rb:14:in `attendences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  [1m[36mCheck Load (0.5ms)[0m  [1m[34mSELECT "checks".* FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2)[0m
+  ↳ app/views/admin/attendences/_attendences.html.erb:27
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  Rendered admin/attendences/_attendences.html.erb (Duration: 8.9ms | Allocations: 3101)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 61.0ms | Allocations: 28783)
+Completed 200 OK in 72ms (Views: 60.7ms | ActiveRecord: 2.8ms | Allocations: 32167)
+
+
+Started GET "/admin/absences" for 172.18.0.1 at 2021-02-13 02:01:04 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AbsencesController#index as HTML
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT * FROM absences(2);[0m
+  ↳ app/admin/absences.rb:12:in `absences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  Rendered admin/absences/_absences.html.erb (Duration: 0.7ms | Allocations: 446)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 54.4ms | Allocations: 26112)
+Completed 200 OK in 63ms (Views: 55.8ms | ActiveRecord: 1.4ms | Allocations: 28487)
+
+
+Started GET "/admin/absences" for 172.18.0.1 at 2021-02-13 02:01:54 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AbsencesController#index as HTML
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT * FROM absences(2);[0m
+  ↳ app/admin/absences.rb:12:in `absences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  Rendered admin/absences/_absences.html.erb (Duration: 0.8ms | Allocations: 446)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 3089.7ms | Allocations: 210535)
+Completed 200 OK in 3098ms (Views: 3090.6ms | ActiveRecord: 1.5ms | Allocations: 212898)
+
+
+Started GET "/admin/absences" for 172.18.0.1 at 2021-02-13 02:02:24 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AbsencesController#index as HTML
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT * FROM absences(2);[0m
+  ↳ app/admin/absences.rb:12:in `absences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  Rendered admin/absences/_absences.html.erb (Duration: 0.8ms | Allocations: 468)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 62.6ms | Allocations: 26754)
+Completed 200 OK in 100ms (Views: 64.1ms | ActiveRecord: 8.3ms | Allocations: 35755)
+
+
+Started GET "/admin/absences" for 172.18.0.1 at 2021-02-13 02:02:26 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AbsencesController#index as HTML
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT * FROM absences(2);[0m
+  ↳ app/admin/absences.rb:12:in `absences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  Rendered admin/absences/_absences.html.erb (Duration: 0.7ms | Allocations: 446)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 54.7ms | Allocations: 26024)
+Completed 200 OK in 64ms (Views: 55.5ms | ActiveRecord: 1.1ms | Allocations: 28419)
+
+
+Started GET "/admin/attendences" for 172.18.0.1 at 2021-02-13 02:02:27 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AttendencesController#index as HTML
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCheck Load (0.6ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 1)[0m
+  ↳ app/admin/attendences.rb:13:in `attendences'
+  [1m[36mCheck Load (0.5ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 2)[0m
+  ↳ app/admin/attendences.rb:14:in `attendences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  [1m[36mCheck Load (0.5ms)[0m  [1m[34mSELECT "checks".* FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2)[0m
+  ↳ app/views/admin/attendences/_attendences.html.erb:27
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  Rendered admin/attendences/_attendences.html.erb (Duration: 32.5ms | Allocations: 8267)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 94.8ms | Allocations: 33956)
+Completed 200 OK in 118ms (Views: 89.7ms | ActiveRecord: 12.4ms | Allocations: 40455)
+
+
+Started GET "/admin/absences" for 172.18.0.1 at 2021-02-13 02:02:29 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AbsencesController#index as HTML
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT * FROM absences(2);[0m
+  ↳ app/admin/absences.rb:12:in `absences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  Rendered admin/absences/_absences.html.erb (Duration: 1.2ms | Allocations: 446)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 53.1ms | Allocations: 26024)
+Completed 200 OK in 62ms (Views: 54.3ms | ActiveRecord: 1.0ms | Allocations: 28404)
+
+
+Started GET "/admin/attendences" for 172.18.0.1 at 2021-02-13 02:02:29 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AttendencesController#index as HTML
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCheck Load (0.5ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 1)[0m
+  ↳ app/admin/attendences.rb:13:in `attendences'
+  [1m[36mCheck Load (0.7ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 2)[0m
+  ↳ app/admin/attendences.rb:14:in `attendences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  [1m[36mCheck Load (0.5ms)[0m  [1m[34mSELECT "checks".* FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2)[0m
+  ↳ app/views/admin/attendences/_attendences.html.erb:27
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  Rendered admin/attendences/_attendences.html.erb (Duration: 9.8ms | Allocations: 3100)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 66.9ms | Allocations: 28668)
+Completed 200 OK in 79ms (Views: 66.9ms | ActiveRecord: 2.7ms | Allocations: 32035)
+
+
+Started GET "/admin/absences" for 172.18.0.1 at 2021-02-13 02:02:31 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AbsencesController#index as HTML
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT * FROM absences(2);[0m
+  ↳ app/admin/absences.rb:12:in `absences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  Rendered admin/absences/_absences.html.erb (Duration: 1.2ms | Allocations: 446)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 50.2ms | Allocations: 26024)
+Completed 200 OK in 59ms (Views: 51.1ms | ActiveRecord: 1.4ms | Allocations: 28395)
+
+
+Started GET "/admin/companies" for 172.18.0.1 at 2021-02-13 02:02:32 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::CompaniesController#index as HTML
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (14.4ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "companies" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "companies" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "companies"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "companies" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCompany Load (0.6ms)[0m  [1m[34mSELECT "companies".* FROM "companies" ORDER BY "companies"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/resource/index.html.arb (Duration: 217.4ms | Allocations: 63153)
+Completed 200 OK in 273ms (Views: 217.1ms | ActiveRecord: 21.4ms | Allocations: 70334)
+
+
+Started GET "/admin/comments" for 172.18.0.1 at 2021-02-13 02:02:33 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::CommentsController#index as HTML
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."namespace" = $1[0m  [["namespace", "admin"]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "active_admin_comments" WHERE "active_admin_comments"."namespace" = $1 LIMIT $2 OFFSET $3) subquery_for_count[0m  [["namespace", "admin"], ["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT DISTINCT "active_admin_comments"."resource_type" FROM "active_admin_comments" ORDER BY resource_type asc[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT DISTINCT "active_admin_comments"."author_type" FROM "active_admin_comments" ORDER BY author_type asc[0m
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/resource/index.html.arb (Duration: 93.6ms | Allocations: 44534)
+Completed 200 OK in 110ms (Views: 93.1ms | ActiveRecord: 7.9ms | Allocations: 48502)
+
+
+Started GET "/admin/checks" for 172.18.0.1 at 2021-02-13 02:02:34 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::ChecksController#index as HTML
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "checks" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "checks" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "checks"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "checks" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCheck Load (0.7ms)[0m  [1m[34mSELECT "checks".* FROM "checks" ORDER BY "checks"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/admin/checks.rb:31:in `block (3 levels) in <main>'
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/admin/checks.rb:31:in `block (3 levels) in <main>'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/admin/checks.rb:31:in `block (3 levels) in <main>'
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/resource/index.html.arb (Duration: 126.6ms | Allocations: 53315)
+Completed 200 OK in 136ms (Views: 127.1ms | ActiveRecord: 2.7ms | Allocations: 56606)
+
+
+Started GET "/admin/admin_users" for 172.18.0.1 at 2021-02-13 02:02:35 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AdminUsersController#index as HTML
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "admin_users" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "admin_users" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "admin_users"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "admin_users" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" ORDER BY "admin_users"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/resource/index.html.arb (Duration: 101.1ms | Allocations: 48318)
+Completed 200 OK in 110ms (Views: 102.7ms | ActiveRecord: 1.8ms | Allocations: 51587)
+
+
+Started GET "/admin/absences" for 172.18.0.1 at 2021-02-13 02:02:37 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AbsencesController#index as HTML
+  [1m[36mAdminUser Load (0.7ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT * FROM absences(2);[0m
+  ↳ app/admin/absences.rb:12:in `absences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  Rendered admin/absences/_absences.html.erb (Duration: 1.5ms | Allocations: 446)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 53.3ms | Allocations: 26026)
+Completed 200 OK in 63ms (Views: 54.4ms | ActiveRecord: 1.6ms | Allocations: 28388)
+
+
+Started GET "/admin/attendences" for 172.18.0.1 at 2021-02-13 02:02:38 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AttendencesController#index as HTML
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCheck Load (0.5ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 1)[0m
+  ↳ app/admin/attendences.rb:13:in `attendences'
+  [1m[36mCheck Load (0.5ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 2)[0m
+  ↳ app/admin/attendences.rb:14:in `attendences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  [1m[36mCheck Load (0.5ms)[0m  [1m[34mSELECT "checks".* FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2)[0m
+  ↳ app/views/admin/attendences/_attendences.html.erb:27
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  Rendered admin/attendences/_attendences.html.erb (Duration: 11.4ms | Allocations: 3100)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 60.9ms | Allocations: 28678)
+Completed 200 OK in 72ms (Views: 60.6ms | ActiveRecord: 2.6ms | Allocations: 32065)
+
+
+Started GET "/admin/checks" for 172.18.0.1 at 2021-02-13 02:05:54 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::ChecksController#index as HTML
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (27.5ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "checks" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "checks" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "checks"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "checks" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCheck Load (0.9ms)[0m  [1m[34mSELECT "checks".* FROM "checks" ORDER BY "checks"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/admin/checks.rb:31:in `block (3 levels) in <main>'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/admin/checks.rb:31:in `block (3 levels) in <main>'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/admin/checks.rb:31:in `block (3 levels) in <main>'
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/resource/index.html.arb (Duration: 152.3ms | Allocations: 52911)
+Completed 200 OK in 158ms (Views: 123.9ms | ActiveRecord: 29.7ms | Allocations: 55232)
+
+
+Started GET "/checks" for 172.18.0.1 at 2021-02-13 02:05:56 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ChecksController#show as HTML
+  Rendering checks/show.html.erb within layouts/application
+[Webpacker] Compiling...
+Started GET "/checks" for 172.18.0.1 at 2021-02-13 02:06:00 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ChecksController#show as HTML
+  Rendering checks/show.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /checker/public/packs
+[Webpacker] Hash: 27228ef3fd7faed3445b
+Version: webpack 4.46.0
+Time: 5997ms
+Built at: 02/13/2021 2:06:09 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-c229f7c7014cf8c8d494.js    124 KiB  application  [emitted] [immutable]  application
+js/application-c229f7c7014cf8c8d494.js.map    139 KiB  application  [emitted] [dev]        application
+          js/check-03118146a50bfe9533e4.js   4.44 KiB        check  [emitted] [immutable]  check
+      js/check-03118146a50bfe9533e4.js.map    4.3 KiB        check  [emitted] [dev]        check
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-c229f7c7014cf8c8d494.js js/application-c229f7c7014cf8c8d494.js.map
+Entrypoint check = js/check-03118146a50bfe9533e4.js js/check-03118146a50bfe9533e4.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/check.js] 592 bytes {check} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered checks/show.html.erb within layouts/application (Duration: 11972.9ms | Allocations: 8951)
+[Webpacker] Compiled all packs in /checker/public/packs
+[Webpacker] Hash: 27228ef3fd7faed3445b
+Version: webpack 4.46.0
+Time: 4225ms
+Built at: 02/13/2021 2:06:11 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-c229f7c7014cf8c8d494.js    124 KiB  application  [emitted] [immutable]  application
+js/application-c229f7c7014cf8c8d494.js.map    139 KiB  application  [emitted] [dev]        application
+          js/check-03118146a50bfe9533e4.js   4.44 KiB        check  [emitted] [immutable]  check
+      js/check-03118146a50bfe9533e4.js.map    4.3 KiB        check  [emitted] [dev]        check
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-c229f7c7014cf8c8d494.js js/application-c229f7c7014cf8c8d494.js.map
+Entrypoint check = js/check-03118146a50bfe9533e4.js js/check-03118146a50bfe9533e4.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/check.js] 592 bytes {check} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered checks/show.html.erb within layouts/application (Duration: 10346.1ms | Allocations: 57322)
+Started GET "/checks" for 172.18.0.1 at 2021-02-13 02:12:11 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (49.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ChecksController#show as HTML
+  Rendering checks/show.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /checker/public/packs
+[Webpacker] Hash: 27228ef3fd7faed3445b
+Version: webpack 4.46.0
+Time: 3853ms
+Built at: 02/13/2021 2:12:25 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-c229f7c7014cf8c8d494.js    124 KiB  application  [emitted] [immutable]  application
+js/application-c229f7c7014cf8c8d494.js.map    139 KiB  application  [emitted] [dev]        application
+          js/check-03118146a50bfe9533e4.js   4.44 KiB        check  [emitted] [immutable]  check
+      js/check-03118146a50bfe9533e4.js.map    4.3 KiB        check  [emitted] [dev]        check
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-c229f7c7014cf8c8d494.js js/application-c229f7c7014cf8c8d494.js.map
+Entrypoint check = js/check-03118146a50bfe9533e4.js js/check-03118146a50bfe9533e4.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/check.js] 592 bytes {check} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered checks/show.html.erb within layouts/application (Duration: 13665.5ms | Allocations: 510493)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14878ms (Views: 14756.0ms | ActiveRecord: 96.4ms | Allocations: 588937)
+
+
+Started GET "/checks" for 172.18.0.1 at 2021-02-13 02:13:06 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ChecksController#show as HTML
+  Rendering checks/show.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered checks/show.html.erb within layouts/application (Duration: 8.7ms | Allocations: 2926)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2439ms (Views: 2437.4ms | ActiveRecord: 0.0ms | Allocations: 120505)
+
+
+Started GET "/checks" for 172.18.0.1 at 2021-02-13 02:34:36 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ChecksController#show as HTML
+  Rendering checks/show.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered checks/show.html.erb within layouts/application (Duration: 491.5ms | Allocations: 3290)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 2190ms (Views: 2027.6ms | ActiveRecord: 0.0ms | Allocations: 18942)
+
+
+Started GET "/checks" for 172.18.0.1 at 2021-02-13 02:44:56 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ChecksController#show as HTML
+  Rendering checks/show.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered checks/show.html.erb within layouts/application (Duration: 9.1ms | Allocations: 2929)
+Completed 500 Internal Server Error in 1824ms (ActiveRecord: 0.0ms | Allocations: 14138)
+
+
+  
+ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    11:   </head>
+    12: 
+  
+app/views/layouts/application.html.erb:9
+Started GET "/checks" for 172.18.0.1 at 2021-02-13 02:45:46 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ChecksController#show as HTML
+  Rendering checks/show.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered checks/show.html.erb within layouts/application (Duration: 6.2ms | Allocations: 2933)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 91ms (Views: 89.7ms | ActiveRecord: 0.0ms | Allocations: 17610)
+
+
+Started GET "/admin" for 172.18.0.1 at 2021-02-13 02:45:50 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::DashboardController#index as HTML
+Completed 401 Unauthorized in 58ms (ActiveRecord: 0.0ms | Allocations: 522)
+
+
+Started GET "/admin/login" for 172.18.0.1 at 2021-02-13 02:45:51 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/devise/shared/_links.erb (Duration: 2.2ms | Allocations: 590)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (Duration: 328.2ms | Allocations: 10672)
+Started GET "/admin/login" for 172.18.0.1 at 2021-02-13 02:45:54 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/devise/shared/_links.erb (Duration: 0.4ms | Allocations: 94)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (Duration: 9.4ms | Allocations: 5572)
+Completed 200 OK in 3316ms (Views: 3160.3ms | ActiveRecord: 19.8ms | Allocations: 207873)
+
+
+Completed 200 OK in 83ms (Views: 79.4ms | ActiveRecord: 0.0ms | Allocations: 32318)
+
+
+Started POST "/admin/login" for 172.18.0.1 at 2021-02-13 02:45:59 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"MQiZG0mMOwiC7BqE0pssZbGd3ZgV7sT3Nc4yWh8sqIUSGTDIF1n8+zSyKKknDVbvwLJzDMZNXqkbcMtCCCAf4Q==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[36mAdminUser Load (252.3ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/admin
+Completed 302 Found in 1577ms (ActiveRecord: 252.6ms | Allocations: 7416)
+
+
+Started GET "/admin" for 172.18.0.1 at 2021-02-13 02:46:01 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::DashboardController#index as HTML
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 94.8ms | Allocations: 27260)
+Completed 200 OK in 153ms (Views: 106.0ms | ActiveRecord: 0.6ms | Allocations: 30653)
+
+
+Started GET "/admin/absences" for 172.18.0.1 at 2021-02-13 02:46:05 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AbsencesController#index as HTML
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (478.3ms)[0m  [1m[34mSELECT * FROM absences(2);[0m
+  ↳ app/admin/absences.rb:12:in `absences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  Rendered admin/absences/_absences.html.erb (Duration: 2.0ms | Allocations: 809)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 73.4ms | Allocations: 26879)
+Completed 200 OK in 561ms (Views: 75.2ms | ActiveRecord: 478.8ms | Allocations: 30124)
+
+
+Started GET "/admin/attendences" for 172.18.0.1 at 2021-02-13 02:46:08 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AttendencesController#index as HTML
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCheck Load (41.3ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 1)[0m
+  ↳ app/admin/attendences.rb:13:in `attendences'
+  [1m[36mCheck Load (0.8ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 2)[0m
+  ↳ app/admin/attendences.rb:14:in `attendences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  [1m[36mCheck Load (0.6ms)[0m  [1m[34mSELECT "checks".* FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2)[0m
+  ↳ app/views/admin/attendences/_attendences.html.erb:27
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  Rendered admin/attendences/_attendences.html.erb (Duration: 172.5ms | Allocations: 8979)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 227.5ms | Allocations: 34804)
+Completed 200 OK in 303ms (Views: 220.6ms | ActiveRecord: 51.2ms | Allocations: 39177)
+
+
+Started GET "/admin/checks" for 172.18.0.1 at 2021-02-13 02:46:10 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::ChecksController#index as HTML
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "checks" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "checks" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "checks"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "checks" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCheck Load (0.6ms)[0m  [1m[34mSELECT "checks".* FROM "checks" ORDER BY "checks"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/admin/checks.rb:31:in `block (3 levels) in <main>'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/admin/checks.rb:31:in `block (3 levels) in <main>'
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/admin/checks.rb:31:in `block (3 levels) in <main>'
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/resource/index.html.arb (Duration: 315.5ms | Allocations: 58689)
+Completed 200 OK in 404ms (Views: 327.9ms | ActiveRecord: 2.8ms | Allocations: 62846)
+
+
+Started GET "/admin/absences" for 172.18.0.1 at 2021-02-13 02:46:12 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AbsencesController#index as HTML
+  [1m[36mAdminUser Load (0.8ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT * FROM absences(2);[0m
+  ↳ app/admin/absences.rb:12:in `absences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  Rendered admin/absences/_absences.html.erb (Duration: 0.8ms | Allocations: 446)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 51.4ms | Allocations: 26245)
+Completed 200 OK in 61ms (Views: 52.5ms | ActiveRecord: 2.3ms | Allocations: 28641)
+
+
+Started GET "/admin/attendences" for 172.18.0.1 at 2021-02-13 02:46:16 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AttendencesController#index as HTML
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCheck Load (0.5ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 1)[0m
+  ↳ app/admin/attendences.rb:13:in `attendences'
+  [1m[36mCheck Load (0.5ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 2)[0m
+  ↳ app/admin/attendences.rb:14:in `attendences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  [1m[36mCheck Load (0.5ms)[0m  [1m[34mSELECT "checks".* FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2)[0m
+  ↳ app/views/admin/attendences/_attendences.html.erb:27
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  Rendered admin/attendences/_attendences.html.erb (Duration: 8.2ms | Allocations: 3101)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 61.5ms | Allocations: 28672)
+Completed 200 OK in 72ms (Views: 61.2ms | ActiveRecord: 2.6ms | Allocations: 32045)
+
+
+Started GET "/admin/attendences" for 172.18.0.1 at 2021-02-13 02:47:51 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AttendencesController#index as HTML
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCheck Load (0.9ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 1)[0m
+  ↳ app/admin/attendences.rb:13:in `attendences'
+  [1m[36mCheck Load (0.8ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 2)[0m
+  ↳ app/admin/attendences.rb:14:in `attendences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  [1m[36mCheck Load (0.6ms)[0m  [1m[34mSELECT "checks".* FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2)[0m
+  ↳ app/views/admin/attendences/_attendences.html.erb:27
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  Rendered admin/attendences/_attendences.html.erb (Duration: 11.4ms | Allocations: 3464)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 71.3ms | Allocations: 29356)
+Completed 200 OK in 87ms (Views: 72.1ms | ActiveRecord: 3.2ms | Allocations: 33825)
+
+
+Started GET "/admin/checks" for 172.18.0.1 at 2021-02-13 02:47:56 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::ChecksController#index as HTML
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "checks" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "checks" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "checks"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "checks" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCheck Load (0.5ms)[0m  [1m[34mSELECT "checks".* FROM "checks" ORDER BY "checks"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/admin/checks.rb:31:in `block (3 levels) in <main>'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/admin/checks.rb:31:in `block (3 levels) in <main>'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/admin/checks.rb:31:in `block (3 levels) in <main>'
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/resource/index.html.arb (Duration: 125.9ms | Allocations: 53892)
+Completed 200 OK in 135ms (Views: 126.2ms | ActiveRecord: 3.2ms | Allocations: 57236)
+
+
+Started GET "/admin/checks" for 172.18.0.1 at 2021-02-13 02:48:09 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::ChecksController#index as HTML
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "checks" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "checks" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "checks"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "checks" LIMIT $1 OFFSET $2) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCheck Load (0.5ms)[0m  [1m[34mSELECT "checks".* FROM "checks" ORDER BY "checks"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/admin/checks.rb:31:in `block (3 levels) in <main>'
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/admin/checks.rb:31:in `block (3 levels) in <main>'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/admin/checks.rb:31:in `block (3 levels) in <main>'
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/resource/index.html.arb (Duration: 166.5ms | Allocations: 53879)
+Completed 200 OK in 179ms (Views: 170.0ms | ActiveRecord: 2.8ms | Allocations: 57290)
+
+
+Started GET "/admin/absences" for 172.18.0.1 at 2021-02-13 02:48:14 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AbsencesController#index as HTML
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT * FROM absences(2);[0m
+  ↳ app/admin/absences.rb:12:in `absences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  Rendered admin/absences/_absences.html.erb (Duration: 2.0ms | Allocations: 783)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 57.5ms | Allocations: 26896)
+Completed 200 OK in 70ms (Views: 59.7ms | ActiveRecord: 1.7ms | Allocations: 30277)
+
+
+Started GET "/admin/attendences" for 172.18.0.1 at 2021-02-13 02:48:16 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AttendencesController#index as HTML
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCheck Load (0.7ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 1)[0m
+  ↳ app/admin/attendences.rb:13:in `attendences'
+  [1m[36mCheck Load (0.6ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 2)[0m
+  ↳ app/admin/attendences.rb:14:in `attendences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  [1m[36mCheck Load (0.5ms)[0m  [1m[34mSELECT "checks".* FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2)[0m
+  ↳ app/views/admin/attendences/_attendences.html.erb:27
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  Rendered admin/attendences/_attendences.html.erb (Duration: 11.6ms | Allocations: 3458)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 66.8ms | Allocations: 29282)
+Completed 200 OK in 83ms (Views: 67.9ms | ActiveRecord: 2.9ms | Allocations: 33438)
+
+
+Started POST "/admin/attendences" for 172.18.0.1 at 2021-02-13 02:48:42 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [POST] "/admin/attendences"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/admin/attendences" for 172.18.0.1 at 2021-02-13 02:51:28 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [POST] "/admin/attendences"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/admin/attendences" for 172.18.0.1 at 2021-02-13 02:51:31 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AttendencesController#index as HTML
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCheck Load (0.7ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 1)[0m
+  ↳ app/admin/attendences.rb:13:in `attendences'
+  [1m[36mCheck Load (0.7ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 2)[0m
+  ↳ app/admin/attendences.rb:14:in `attendences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  [1m[36mCheck Load (0.5ms)[0m  [1m[34mSELECT "checks".* FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2)[0m
+  ↳ app/views/admin/attendences/_attendences.html.erb:27
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  Rendered admin/attendences/_attendences.html.erb (Duration: 12.0ms | Allocations: 3100)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 130.4ms | Allocations: 28903)
+Completed 200 OK in 143ms (Views: 130.5ms | ActiveRecord: 2.8ms | Allocations: 32265)
+
+
+Started POST "/admin/attendences" for 172.18.0.1 at 2021-02-13 02:51:34 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [POST] "/admin/attendences"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/admin/attendences" for 172.18.0.1 at 2021-02-13 02:51:54 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [POST] "/admin/attendences"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/admin/attendences" for 172.18.0.1 at 2021-02-13 02:51:58 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AttendencesController#index as HTML
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCheck Load (0.6ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 1)[0m
+  ↳ app/admin/attendences.rb:13:in `attendences'
+  [1m[36mCheck Load (1.8ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 2)[0m
+  ↳ app/admin/attendences.rb:14:in `attendences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  [1m[36mCheck Load (0.5ms)[0m  [1m[34mSELECT "checks".* FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2)[0m
+  ↳ app/views/admin/attendences/_attendences.html.erb:27
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  Rendered admin/attendences/_attendences.html.erb (Duration: 11.8ms | Allocations: 3101)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 65.0ms | Allocations: 28680)
+Completed 200 OK in 79ms (Views: 64.9ms | ActiveRecord: 4.4ms | Allocations: 32045)
+
+
+Started POST "/admin/attendences" for 172.18.0.1 at 2021-02-13 02:51:59 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [POST] "/admin/attendences"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/admin/attendences" for 172.18.0.1 at 2021-02-13 02:52:01 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AttendencesController#index as HTML
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCheck Load (1.6ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 1)[0m
+  ↳ app/admin/attendences.rb:13:in `attendences'
+  [1m[36mCheck Load (0.7ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 2)[0m
+  ↳ app/admin/attendences.rb:14:in `attendences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  [1m[36mCheck Load (1.3ms)[0m  [1m[34mSELECT "checks".* FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2)[0m
+  ↳ app/views/admin/attendences/_attendences.html.erb:27
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  Rendered admin/attendences/_attendences.html.erb (Duration: 12.7ms | Allocations: 3100)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 83.3ms | Allocations: 28680)
+Completed 200 OK in 101ms (Views: 83.4ms | ActiveRecord: 4.8ms | Allocations: 32046)
+
+
+Started GET "/admin/attendences" for 172.18.0.1 at 2021-02-13 02:52:33 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AttendencesController#index as HTML
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCheck Load (0.8ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 1)[0m
+  ↳ app/admin/attendences.rb:13:in `attendences'
+  [1m[36mCheck Load (1.0ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 2)[0m
+  ↳ app/admin/attendences.rb:14:in `attendences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  [1m[36mCheck Load (0.5ms)[0m  [1m[34mSELECT "checks".* FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2)[0m
+  ↳ app/views/admin/attendences/_attendences.html.erb:27
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  Rendered admin/attendences/_attendences.html.erb (Duration: 12.1ms | Allocations: 3100)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 67.3ms | Allocations: 28678)
+Completed 200 OK in 80ms (Views: 67.2ms | ActiveRecord: 3.2ms | Allocations: 32043)
+
+
+Started GET "/admin/attendences" for 172.18.0.1 at 2021-02-13 03:31:48 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (69.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Admin::AttendencesController#index as HTML
+  [1m[36mAdminUser Load (48.3ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCheck Load (63.1ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 1)[0m
+  ↳ app/admin/attendences.rb:13:in `attendences'
+  [1m[36mCheck Load (1.1ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 2)[0m
+  ↳ app/admin/attendences.rb:14:in `attendences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  [1m[36mCheck Load (0.5ms)[0m  [1m[34mSELECT "checks".* FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2)[0m
+  ↳ app/views/admin/attendences/_attendences.html.erb:27
+  [1m[36mUser Load (76.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  Rendered admin/attendences/_attendences.html.erb (Duration: 126.8ms | Allocations: 8992)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 4769.2ms | Allocations: 119181)
+Completed 200 OK in 5372ms (Views: 4711.6ms | ActiveRecord: 263.5ms | Allocations: 134050)
+
+
+Started POST "/admin/attendences" for 172.18.0.1 at 2021-02-13 03:32:29 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AttendencesController#index as HTML
+  Parameters: {"authenticity_token"=>"hWH99AXcdrmEGWUn5y/glcNq3TtPBIcFMEAyd0Jn/EsCjNrik3Xb/fMr/d5bWbW0Fx8jto3Qt3tw5JXOhDt7Qw==", "abs"=>"", "month"=>"2", "commit"=>"Get Report"}
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCheck Load (0.6ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 1)[0m
+  ↳ app/admin/attendences.rb:13:in `attendences'
+  [1m[36mCheck Load (0.5ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 2)[0m
+  ↳ app/admin/attendences.rb:14:in `attendences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  [1m[36mCheck Load (0.8ms)[0m  [1m[34mSELECT "checks".* FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2)[0m
+  ↳ app/views/admin/attendences/_attendences.html.erb:27
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  Rendered admin/attendences/_attendences.html.erb (Duration: 12.2ms | Allocations: 3100)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 68.7ms | Allocations: 28680)
+Completed 200 OK in 81ms (Views: 68.2ms | ActiveRecord: 3.3ms | Allocations: 32120)
+
+
+Started POST "/admin/attendences" for 172.18.0.1 at 2021-02-13 03:32:32 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AttendencesController#index as HTML
+  Parameters: {"authenticity_token"=>"LgwxIcRcDM2xnLC63LzcAu4u0a7ElYPHvktjPTBQDayp4RY3UvWhicauKENgyokjOlsvIwZBs7n+78SE9gyKpA==", "abs"=>"", "month"=>"4", "commit"=>"Get Report"}
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCheck Load (1.1ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 1)[0m
+  ↳ app/admin/attendences.rb:13:in `attendences'
+  [1m[36mCheck Load (0.7ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 2)[0m
+  ↳ app/admin/attendences.rb:14:in `attendences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  [1m[36mCheck Load (0.5ms)[0m  [1m[34mSELECT "checks".* FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 4)[0m
+  ↳ app/views/admin/attendences/_attendences.html.erb:27
+  Rendered admin/attendences/_attendences.html.erb (Duration: 3.3ms | Allocations: 1119)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 54.4ms | Allocations: 26694)
+Completed 200 OK in 70ms (Views: 55.2ms | ActiveRecord: 3.0ms | Allocations: 30080)
+
+
+Started GET "/admin/attendences" for 172.18.0.1 at 2021-02-13 03:32:33 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AttendencesController#index as HTML
+  [1m[36mAdminUser Load (3.6ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCheck Load (2.6ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 1)[0m
+  ↳ app/admin/attendences.rb:13:in `attendences'
+  [1m[36mCheck Load (2.2ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 2)[0m
+  ↳ app/admin/attendences.rb:14:in `attendences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  [1m[36mCheck Load (0.6ms)[0m  [1m[34mSELECT "checks".* FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2)[0m
+  ↳ app/views/admin/attendences/_attendences.html.erb:27
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  Rendered admin/attendences/_attendences.html.erb (Duration: 10.1ms | Allocations: 3101)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 69.9ms | Allocations: 28670)
+Completed 200 OK in 122ms (Views: 71.4ms | ActiveRecord: 9.6ms | Allocations: 32047)
+
+
+Started POST "/admin/attendences" for 172.18.0.1 at 2021-02-13 03:32:35 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AttendencesController#index as HTML
+  Parameters: {"authenticity_token"=>"Ml8nonJ8I52Oj9I8ufh5lEflPV7otwD33/M4S8oH1t61sgC05NWO2fm9SsUFjiy1k5DD0ypjMImfV5/yDFtR1g==", "abs"=>"", "month"=>"5", "commit"=>"Get Report"}
+  [1m[36mAdminUser Load (0.7ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCheck Load (0.8ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 1)[0m
+  ↳ app/admin/attendences.rb:13:in `attendences'
+  [1m[36mCheck Load (1.2ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 2)[0m
+  ↳ app/admin/attendences.rb:14:in `attendences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  [1m[36mCheck Load (0.6ms)[0m  [1m[34mSELECT "checks".* FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 5)[0m
+  ↳ app/views/admin/attendences/_attendences.html.erb:27
+  Rendered admin/attendences/_attendences.html.erb (Duration: 3.0ms | Allocations: 1119)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 59.3ms | Allocations: 26684)
+Completed 200 OK in 76ms (Views: 59.7ms | ActiveRecord: 3.2ms | Allocations: 30091)
+
+
+Started POST "/admin/attendences" for 172.18.0.1 at 2021-02-13 03:32:37 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AttendencesController#index as HTML
+  Parameters: {"authenticity_token"=>"51B0yM+plfiAXcQVBvw9n7kEhuMAZHmWSo212cxwp+pgvVPeWQA4vPdvXOy6imi+bXF4bsKwSegKKRJgCiwg4g==", "abs"=>"", "month"=>"3", "commit"=>"Get Report"}
+  [1m[36mAdminUser Load (3.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCheck Load (2.3ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 1)[0m
+  ↳ app/admin/attendences.rb:13:in `attendences'
+  [1m[36mCheck Load (1.7ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 2)[0m
+  ↳ app/admin/attendences.rb:14:in `attendences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  [1m[36mCheck Load (0.6ms)[0m  [1m[34mSELECT "checks".* FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 3)[0m
+  ↳ app/views/admin/attendences/_attendences.html.erb:27
+  Rendered admin/attendences/_attendences.html.erb (Duration: 4.1ms | Allocations: 1119)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 109.7ms | Allocations: 26685)
+Completed 200 OK in 146ms (Views: 110.4ms | ActiveRecord: 7.8ms | Allocations: 30092)
+
+
+Started POST "/admin/attendences" for 172.18.0.1 at 2021-02-13 03:32:39 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AttendencesController#index as HTML
+  Parameters: {"authenticity_token"=>"ANARuE8gaq9Cfsng3UH8QwEdYbEOBlokU/EVkOjUI5qHPTau2YnH6zVMURlhN6li1WifPMzSaloTVbIpLoikkg==", "abs"=>"", "month"=>"7", "commit"=>"Get Report"}
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCheck Load (0.7ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 1)[0m
+  ↳ app/admin/attendences.rb:13:in `attendences'
+  [1m[36mCheck Load (1.6ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 2)[0m
+  ↳ app/admin/attendences.rb:14:in `attendences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  [1m[36mCheck Load (0.6ms)[0m  [1m[34mSELECT "checks".* FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 7)[0m
+  ↳ app/views/admin/attendences/_attendences.html.erb:27
+  Rendered admin/attendences/_attendences.html.erb (Duration: 2.8ms | Allocations: 1119)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 52.6ms | Allocations: 26840)
+Completed 200 OK in 66ms (Views: 52.8ms | ActiveRecord: 3.3ms | Allocations: 30228)
+
+
+Started GET "/admin/absences" for 172.18.0.1 at 2021-02-13 03:32:40 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AbsencesController#index as HTML
+  [1m[36mAdminUser Load (0.7ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (516.3ms)[0m  [1m[34mSELECT * FROM absences(2);[0m
+  ↳ app/admin/absences.rb:12:in `absences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  Rendered admin/absences/_absences.html.erb (Duration: 15.5ms | Allocations: 802)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 97.4ms | Allocations: 26779)
+Completed 200 OK in 655ms (Views: 110.9ms | ActiveRecord: 517.0ms | Allocations: 29972)
+
+
+Started POST "/admin/reports" for 172.18.0.1 at 2021-02-13 03:32:43 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [POST] "/admin/reports"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/admin/absences" for 172.18.0.1 at 2021-02-13 03:33:01 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AbsencesController#index as HTML
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT * FROM absences(2);[0m
+  ↳ app/admin/absences.rb:12:in `absences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  Rendered admin/absences/_absences.html.erb (Duration: 1.4ms | Allocations: 782)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 55.7ms | Allocations: 27378)
+Completed 200 OK in 119ms (Views: 57.7ms | ActiveRecord: 6.1ms | Allocations: 37193)
+
+
+Started POST "/admin/absences" for 172.18.0.1 at 2021-02-13 03:33:04 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AbsencesController#index as HTML
+  Parameters: {"authenticity_token"=>"Ug6ZpZoIgQNs1XjWvFSsnDWJUOCAcLbbOSciEOGqKRrV476zDKEsRxvn4C8AIvm94fyubUKkhqV5g4WpJ/auEg==", "abs"=>"", "month"=>"3", "commit"=>"Get Report"}
+  [1m[36mAdminUser Load (0.7ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (4.7ms)[0m  [1m[34mSELECT * FROM absences(3);[0m
+  ↳ app/admin/absences.rb:12:in `absences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  Rendered admin/absences/_absences.html.erb (Duration: 0.8ms | Allocations: 442)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 50.7ms | Allocations: 26162)
+Completed 200 OK in 67ms (Views: 51.7ms | ActiveRecord: 5.4ms | Allocations: 28579)
+
+
+Started POST "/admin/absences" for 172.18.0.1 at 2021-02-13 03:33:06 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AbsencesController#index as HTML
+  Parameters: {"authenticity_token"=>"zIVtTM8jKraKGGswD+fDFyoTtmva4LAI+VMrMY94ch9LaEpaWYqH8v0q88mzkZY2/mZI5hg0gHa594yISST1Fw==", "abs"=>"", "month"=>"8", "commit"=>"Get Report"}
+  [1m[36mAdminUser Load (1.4ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (2.8ms)[0m  [1m[34mSELECT * FROM absences(8);[0m
+  ↳ app/admin/absences.rb:12:in `absences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  Rendered admin/absences/_absences.html.erb (Duration: 0.9ms | Allocations: 442)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 61.2ms | Allocations: 26005)
+Completed 200 OK in 89ms (Views: 62.7ms | ActiveRecord: 4.2ms | Allocations: 28399)
+
+
+Started POST "/admin/absences" for 172.18.0.1 at 2021-02-13 03:33:09 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AbsencesController#index as HTML
+  Parameters: {"authenticity_token"=>"56uKy2u5lauqVfy68EfpfwWczFbKX7YVtZW94tI4tRJgRq3d/RA4791nZENMMbxe0eky2wiLhmv1MRpbFGQyGg==", "abs"=>"", "month"=>"6", "commit"=>"Get Report"}
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT * FROM absences(6);[0m
+  ↳ app/admin/absences.rb:12:in `absences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  Rendered admin/absences/_absences.html.erb (Duration: 0.6ms | Allocations: 442)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 53.0ms | Allocations: 26008)
+Completed 200 OK in 64ms (Views: 53.9ms | ActiveRecord: 1.6ms | Allocations: 28400)
+
+
+Started POST "/admin/absences" for 172.18.0.1 at 2021-02-13 03:33:10 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AbsencesController#index as HTML
+  Parameters: {"authenticity_token"=>"keW/x30L2KlzJ3Q1fw8LeLNfeMhivKFZWuIBycgzKj4WCJjR66J17QQV7MzDeV5ZZyqGRaBokScaRqZwDm+tNg==", "abs"=>"", "month"=>"3", "commit"=>"Get Report"}
+  [1m[36mAdminUser Load (1.0ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT * FROM absences(3);[0m
+  ↳ app/admin/absences.rb:12:in `absences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  Rendered admin/absences/_absences.html.erb (Duration: 0.8ms | Allocations: 442)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 59.1ms | Allocations: 26163)
+Completed 200 OK in 70ms (Views: 60.2ms | ActiveRecord: 2.4ms | Allocations: 28563)
+
+
+Started POST "/admin/absences" for 172.18.0.1 at 2021-02-13 03:33:12 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AbsencesController#index as HTML
+  Parameters: {"authenticity_token"=>"4YvvPPP2F8lwVakDC8dmLJvBeh6p6uHx/ChPqfRo5jZmZsgqZV+6jQdnMfq3sTMNT7SEk2s+0Y+8jOgQMjRhPg==", "abs"=>"", "month"=>"1", "commit"=>"Get Report"}
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT * FROM absences(1);[0m
+  ↳ app/admin/absences.rb:12:in `absences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  Rendered admin/absences/_absences.html.erb (Duration: 1.5ms | Allocations: 442)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 55.1ms | Allocations: 26017)
+Completed 200 OK in 66ms (Views: 56.1ms | ActiveRecord: 1.5ms | Allocations: 28413)
+
+
+Started POST "/admin/absences" for 172.18.0.1 at 2021-02-13 03:33:13 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AbsencesController#index as HTML
+  Parameters: {"authenticity_token"=>"zc7K77EtooEVCKmOeH5f0Gp7NK72Rq3h7HHGam4rJ69KI+35J4QPxWI6MXfECArxvg7KIzSSnZ+s1WHTqHegpw==", "abs"=>"", "month"=>"2", "commit"=>"Get Report"}
+  [1m[36mAdminUser Load (1.0ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT * FROM absences(2);[0m
+  ↳ app/admin/absences.rb:12:in `absences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  Rendered admin/absences/_absences.html.erb (Duration: 0.7ms | Allocations: 445)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 50.8ms | Allocations: 26153)
+Completed 200 OK in 68ms (Views: 52.1ms | ActiveRecord: 2.5ms | Allocations: 28547)
+
+
+Started POST "/admin/absences" for 172.18.0.1 at 2021-02-13 03:34:12 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AbsencesController#index as HTML
+  Parameters: {"authenticity_token"=>"zc7K77EtooEVCKmOeH5f0Gp7NK72Rq3h7HHGam4rJ69KI+35J4QPxWI6MXfECArxvg7KIzSSnZ+s1WHTqHegpw==", "abs"=>"", "month"=>"2", "commit"=>"Get Report"}
+  [1m[36mAdminUser Load (1.0ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT * FROM absences(2);[0m
+  ↳ app/admin/absences.rb:12:in `absences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  Rendered admin/absences/_absences.html.erb (Duration: 1.4ms | Allocations: 765)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 62.7ms | Allocations: 26800)
+Completed 200 OK in 75ms (Views: 64.5ms | ActiveRecord: 1.6ms | Allocations: 30291)
+
+
+Started POST "/admin/absences" for 172.18.0.1 at 2021-02-13 03:34:24 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AbsencesController#index as HTML
+  Parameters: {"authenticity_token"=>"zc7K77EtooEVCKmOeH5f0Gp7NK72Rq3h7HHGam4rJ69KI+35J4QPxWI6MXfECArxvg7KIzSSnZ+s1WHTqHegpw==", "abs"=>"", "month"=>"2", "commit"=>"Get Report"}
+  [1m[36mAdminUser Load (1.8ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT * FROM absences(2);[0m
+  ↳ app/admin/absences.rb:12:in `absences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  Rendered admin/absences/_absences.html.erb (Duration: 2.2ms | Allocations: 760)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 64.2ms | Allocations: 26636)
+Completed 200 OK in 108ms (Views: 67.9ms | ActiveRecord: 4.2ms | Allocations: 30136)
+
+
+Started POST "/admin/absences" for 172.18.0.1 at 2021-02-13 03:34:44 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AbsencesController#index as HTML
+  Parameters: {"authenticity_token"=>"zc7K77EtooEVCKmOeH5f0Gp7NK72Rq3h7HHGam4rJ69KI+35J4QPxWI6MXfECArxvg7KIzSSnZ+s1WHTqHegpw==", "abs"=>"", "month"=>"2", "commit"=>"Get Report"}
+  [1m[36mAdminUser Load (1.3ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (3.4ms)[0m  [1m[34mSELECT * FROM absences(2);[0m
+  ↳ app/admin/absences.rb:12:in `absences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  Rendered admin/absences/_absences.html.erb (Duration: 1.4ms | Allocations: 773)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 63.0ms | Allocations: 26809)
+Completed 200 OK in 107ms (Views: 68.1ms | ActiveRecord: 4.7ms | Allocations: 30311)
+
+
+Started POST "/admin/absences" for 172.18.0.1 at 2021-02-13 03:34:54 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AbsencesController#index as HTML
+  Parameters: {"authenticity_token"=>"vUKz8H/Kmu4I8YmbhkUyF5UfqmvZtEJkE0DWvdxVNQA6r5Tm6WM3qn/DEWI6M2c2QWpU5htgchpT5HEEGgmyCA==", "abs"=>"", "month"=>"3", "commit"=>"Get Report"}
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT * FROM absences(3);[0m
+  ↳ app/admin/absences.rb:12:in `absences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  Rendered admin/absences/_absences.html.erb (Duration: 0.9ms | Allocations: 450)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 56.2ms | Allocations: 26025)
+Completed 200 OK in 67ms (Views: 57.4ms | ActiveRecord: 1.4ms | Allocations: 28414)
+
+
+Started POST "/admin/absences" for 172.18.0.1 at 2021-02-13 03:35:13 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AbsencesController#index as HTML
+  Parameters: {"authenticity_token"=>"vUKz8H/Kmu4I8YmbhkUyF5UfqmvZtEJkE0DWvdxVNQA6r5Tm6WM3qn/DEWI6M2c2QWpU5htgchpT5HEEGgmyCA==", "abs"=>"", "month"=>"3", "commit"=>"Get Report"}
+  [1m[36mAdminUser Load (1.7ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT * FROM absences(3);[0m
+  ↳ app/admin/absences.rb:12:in `absences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  Rendered admin/absences/_absences.html.erb (Duration: 1.3ms | Allocations: 1782)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 57.0ms | Allocations: 26090)
+Completed 500 Internal Server Error in 80ms (ActiveRecord: 3.1ms | Allocations: 29573)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="container-report">
+    <%= form_tag( '/admin/absences' , method: "post", class: "form-report") do |f| %>
+     <%months = (1..12).map {|value| [Date::MONTHNAMES[value], value] } %>
+        <input type="hidden" name="abs">
+        <label>Month</label>
+        <select name="month">
+            <%= options_for_select(months, @month != "" ? @month : 1) %>
+        </select>
+    <%= submit_tag("Get Report") %>
+    <% end %>
+    <div class="report-average">
+        <label class="lbl-avg">Absences Average: <span><%= @report.inject(0){|sum, x| sum + x["absences"].to_i}%></span></label>
+    </div>
+</div>
+<table>
+    <thead>
+        <tr>
+            <th>Private Number</th>
+            <th>Name</th>
+            <th>Absences</th>
+        <tr>
+    </thead>
+    <tbody>
+        <% @report.each do |element| %>
+        <tr>
+            <td><%= element["private_number"] %></td>
+            <td><%= element["name"] %></td>
+            <td><%= element["absences"] == nil ? 0 : element[:absences"] %></td>
+        </tr>
+        <%end%>
+    </tbody>
+</table>
+):
+1:    <div class="container-report">
+2:        <%= form_tag( '/admin/absences' , method: "post", class: "form-report") do |f| %>
+3:         <%months = (1..12).map {|value| [Date::MONTHNAMES[value], value] } %>
+4:            <input type="hidden" name="abs">
+5:            <label>Month</label>
+6:            <select name="month">
+7:                <%= options_for_select(months, @month != "" ? @month : 1) %>
+8:            </select>
+9:        <%= submit_tag("Get Report") %>
+10:        <% end %>
+11:        <div class="report-average">
+12:            <label class="lbl-avg">Absences Average: <span><%= @report.inject(0){|sum, x| sum + x["absences"].to_i}%></span></label>
+13:        </div>
+14:    </div>
+15:    <table>
+16:        <thead>
+17:            <tr>
+18:                <th>Private Number</th>
+19:                <th>Name</th>
+20:                <th>Absences</th>
+21:            <tr>
+22:        </thead>
+23:        <tbody>
+24:            <% @report.each do |element| %>
+25:            <tr>
+26:                <td><%= element["private_number"] %></td>
+27:                <td><%= element["name"] %></td>
+28:                <td><%= element["absences"] == nil ? 0 : element[:absences"] %></td>
+29:            </tr>
+30:            <%end%>
+31:        </tbody>
+32:    </table>
+  
+app/views/admin/absences/_absences.html.erb:28: syntax error, unexpected string literal, expecting ']'
+app/views/admin/absences/_absences.html.erb:34: unterminated string meets end of file
+app/views/admin/absences/_absences.html.erb:34: syntax error, unexpected end-of-input, expecting ')'
+app/views/admin/absences/_absences.html.erb:28: syntax error, unexpected string literal, expecting ']'
+app/views/admin/absences/_absences.html.erb:34: unterminated string meets end of file
+app/views/admin/absences/_absences.html.erb:34: syntax error, unexpected end-of-input, expecting ')'
+app/views/admin/absences/_absences.html.erb:28: syntax error, unexpected string literal, expecting ']'
+app/views/admin/absences/_absences.html.erb:34: unterminated string meets end of file
+app/views/admin/absences/_absences.html.erb:34: syntax error, unexpected end-of-input, expecting ')'
+app/views/admin/absences/_absences.html.erb:28: syntax error, unexpected string literal, expecting ']'
+app/views/admin/absences/_absences.html.erb:34: unterminated string meets end of file
+app/views/admin/absences/_absences.html.erb:34: syntax error, unexpected end-of-input, expecting ')'
+app/views/admin/absences/_absences.html.erb:28: syntax error, unexpected string literal, expecting ']'
+app/views/admin/absences/_absences.html.erb:34: unterminated string meets end of file
+app/views/admin/absences/_absences.html.erb:34: syntax error, unexpected end-of-input, expecting ')'
+app/views/admin/absences/_absences.html.erb:28: syntax error, unexpected string literal, expecting ']'
+app/views/admin/absences/_absences.html.erb:34: unterminated string meets end of file
+app/views/admin/absences/_absences.html.erb:34: syntax error, unexpected end-of-input, expecting ')'
+app/admin/absences.rb:18:in `block (2 levels) in <main>'
+Started POST "/admin/absences" for 172.18.0.1 at 2021-02-13 03:35:23 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AbsencesController#index as HTML
+  Parameters: {"authenticity_token"=>"vUKz8H/Kmu4I8YmbhkUyF5UfqmvZtEJkE0DWvdxVNQA6r5Tm6WM3qn/DEWI6M2c2QWpU5htgchpT5HEEGgmyCA==", "abs"=>"", "month"=>"3", "commit"=>"Get Report"}
+  [1m[36mAdminUser Load (0.9ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT * FROM absences(3);[0m
+  ↳ app/admin/absences.rb:12:in `absences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  Rendered admin/absences/_absences.html.erb (Duration: 1.6ms | Allocations: 777)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 61.8ms | Allocations: 26813)
+Completed 200 OK in 86ms (Views: 64.4ms | ActiveRecord: 2.0ms | Allocations: 30306)
+
+
+Started POST "/admin/absences" for 172.18.0.1 at 2021-02-13 03:35:34 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AbsencesController#index as HTML
+  Parameters: {"authenticity_token"=>"PP7ukY9XlUO7Iytf8jilefk8ZbPS3QlcnS/rH/eSkJ27E8mHGf44B8wRs6ZOTvBYLUmbPhAJOSLdi0ymMc4XlQ==", "abs"=>"", "month"=>"2", "commit"=>"Get Report"}
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT * FROM absences(2);[0m
+  ↳ app/admin/absences.rb:12:in `absences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  Rendered admin/absences/_absences.html.erb (Duration: 1.0ms | Allocations: 443)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 72.1ms | Allocations: 26006)
+Completed 200 OK in 83ms (Views: 74.2ms | ActiveRecord: 1.4ms | Allocations: 28399)
+
+
+Started POST "/admin/absences" for 172.18.0.1 at 2021-02-13 03:35:36 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AbsencesController#index as HTML
+  Parameters: {"authenticity_token"=>"si/ZxbzOZ+mse6irGhWOjC8kWSSgdDBmIoZ/zwYF7B81wv7TKmfKrdtJMFKmY9ut+1GnqWKgABhiIth2wFlrFw==", "abs"=>"", "month"=>"5", "commit"=>"Get Report"}
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT * FROM absences(5);[0m
+  ↳ app/admin/absences.rb:12:in `absences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  Rendered admin/absences/_absences.html.erb (Duration: 3.0ms | Allocations: 446)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 77.7ms | Allocations: 26009)
+Completed 200 OK in 90ms (Views: 79.3ms | ActiveRecord: 2.9ms | Allocations: 28405)
+
+
+Started POST "/admin/absences" for 172.18.0.1 at 2021-02-13 03:35:40 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AbsencesController#index as HTML
+  Parameters: {"authenticity_token"=>"x8riNMu3z63KgEEwNeogZTkxNx3wFBE6JKqfK6XbxdpAJ8UiXR5i6b2y2cmJnHVE7UTJkDLAIURkDjiSY4dC0g==", "abs"=>"", "month"=>"7", "commit"=>"Get Report"}
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT * FROM absences(7);[0m
+  ↳ app/admin/absences.rb:12:in `absences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  Rendered admin/absences/_absences.html.erb (Duration: 0.6ms | Allocations: 446)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 57.6ms | Allocations: 26009)
+Completed 200 OK in 66ms (Views: 58.6ms | ActiveRecord: 1.1ms | Allocations: 28393)
+
+
+Started POST "/admin/absences" for 172.18.0.1 at 2021-02-13 03:35:43 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AbsencesController#index as HTML
+  Parameters: {"authenticity_token"=>"MzHiJOqYiOZF3z2F8LxEQ1ow5h4308hWO1XaqZBhbrG03MUyfDElojLtpXxMyhFijkUYk/UH+Ch78X0QVj3puQ==", "abs"=>"", "month"=>"2", "commit"=>"Get Report"}
+  [1m[36mAdminUser Load (0.9ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT * FROM absences(2);[0m
+  ↳ app/admin/absences.rb:12:in `absences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  Rendered admin/absences/_absences.html.erb (Duration: 1.0ms | Allocations: 443)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 64.7ms | Allocations: 26012)
+Completed 200 OK in 75ms (Views: 65.5ms | ActiveRecord: 1.9ms | Allocations: 28412)
+
+
+Started GET "/admin/absences" for 172.18.0.1 at 2021-02-13 03:36:00 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AbsencesController#index as HTML
+  [1m[36mAdminUser Load (0.7ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT * FROM absences(2);[0m
+  ↳ app/admin/absences.rb:12:in `absences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  Rendered admin/absences/_absences.html.erb (Duration: 0.7ms | Allocations: 444)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 52.1ms | Allocations: 26022)
+Completed 200 OK in 68ms (Views: 53.6ms | ActiveRecord: 2.1ms | Allocations: 28401)
+
+
+Started GET "/admin/attendences" for 172.18.0.1 at 2021-02-13 03:36:01 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AttendencesController#index as HTML
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCheck Load (0.7ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 1)[0m
+  ↳ app/admin/attendences.rb:13:in `attendences'
+  [1m[36mCheck Load (0.7ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 2)[0m
+  ↳ app/admin/attendences.rb:14:in `attendences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  [1m[36mCheck Load (0.5ms)[0m  [1m[34mSELECT "checks".* FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2)[0m
+  ↳ app/views/admin/attendences/_attendences.html.erb:27
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  Rendered admin/attendences/_attendences.html.erb (Duration: 35.2ms | Allocations: 8589)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 84.3ms | Allocations: 34410)
+Completed 200 OK in 114ms (Views: 78.5ms | ActiveRecord: 15.6ms | Allocations: 41502)
+
+
+Started GET "/admin/attendences" for 172.18.0.1 at 2021-02-13 03:36:53 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AttendencesController#index as HTML
+  [1m[36mAdminUser Load (1.3ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCheck Load (1.6ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 1)[0m
+  ↳ app/admin/attendences.rb:13:in `attendences'
+  [1m[36mCheck Load (0.8ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 2)[0m
+  ↳ app/admin/attendences.rb:14:in `attendences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  [1m[36mCheck Load (0.6ms)[0m  [1m[34mSELECT "checks".* FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2)[0m
+  ↳ app/views/admin/attendences/_attendences.html.erb:27
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  Rendered admin/attendences/_attendences.html.erb (Duration: 10.1ms | Allocations: 3100)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 3861.9ms | Allocations: 214232)
+Completed 200 OK in 3895ms (Views: 3861.8ms | ActiveRecord: 5.0ms | Allocations: 217597)
+
+
+Started GET "/admin/attendences" for 172.18.0.1 at 2021-02-13 03:37:17 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AttendencesController#index as HTML
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCheck Load (1.0ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 1)[0m
+  ↳ app/admin/attendences.rb:13:in `attendences'
+  [1m[36mCheck Load (0.7ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 2)[0m
+  ↳ app/admin/attendences.rb:14:in `attendences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  [1m[36mCheck Load (0.7ms)[0m  [1m[34mSELECT "checks".* FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2)[0m
+  ↳ app/views/admin/attendences/_attendences.html.erb:27
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  Rendered admin/attendences/_attendences.html.erb (Duration: 13.0ms | Allocations: 3100)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 3086.5ms | Allocations: 213853)
+Completed 200 OK in 3102ms (Views: 3086.0ms | ActiveRecord: 4.1ms | Allocations: 217216)
+
+
+Started GET "/admin/attendences" for 172.18.0.1 at 2021-02-13 03:37:40 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AttendencesController#index as HTML
+  [1m[36mAdminUser Load (0.8ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCheck Load (1.6ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 1)[0m
+  ↳ app/admin/attendences.rb:13:in `attendences'
+  [1m[36mCheck Load (2.0ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 2)[0m
+  ↳ app/admin/attendences.rb:14:in `attendences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  [1m[36mCheck Load (0.7ms)[0m  [1m[34mSELECT "checks".* FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2)[0m
+  ↳ app/views/admin/attendences/_attendences.html.erb:27
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  Rendered admin/attendences/_attendences.html.erb (Duration: 13.5ms | Allocations: 3464)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 81.3ms | Allocations: 29361)
+Completed 200 OK in 124ms (Views: 85.7ms | ActiveRecord: 5.6ms | Allocations: 33829)
+
+
+Started GET "/admin/attendences" for 172.18.0.1 at 2021-02-13 03:37:41 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AttendencesController#index as HTML
+  [1m[36mAdminUser Load (3.7ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCheck Load (1.0ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 1)[0m
+  ↳ app/admin/attendences.rb:13:in `attendences'
+  [1m[36mCheck Load (1.2ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 2)[0m
+  ↳ app/admin/attendences.rb:14:in `attendences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  [1m[36mCheck Load (0.4ms)[0m  [1m[34mSELECT "checks".* FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2)[0m
+  ↳ app/views/admin/attendences/_attendences.html.erb:27
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  Rendered admin/attendences/_attendences.html.erb (Duration: 9.4ms | Allocations: 3100)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 64.7ms | Allocations: 28667)
+Completed 200 OK in 87ms (Views: 65.0ms | ActiveRecord: 6.9ms | Allocations: 32041)
+
+
+Started GET "/admin/attendences" for 172.18.0.1 at 2021-02-13 03:38:03 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AttendencesController#index as HTML
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCheck Load (1.0ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 1)[0m
+  ↳ app/admin/attendences.rb:13:in `attendences'
+  [1m[36mCheck Load (1.0ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 2)[0m
+  ↳ app/admin/attendences.rb:14:in `attendences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  [1m[36mCheck Load (0.6ms)[0m  [1m[34mSELECT "checks".* FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2)[0m
+  ↳ app/views/admin/attendences/_attendences.html.erb:27
+  [1m[36mUser Load (6.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  Rendered admin/attendences/_attendences.html.erb (Duration: 17.6ms | Allocations: 3100)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 2927.7ms | Allocations: 213893)
+Completed 200 OK in 2952ms (Views: 2921.9ms | ActiveRecord: 10.0ms | Allocations: 217258)
+
+
+Started GET "/admin/attendences" for 172.18.0.1 at 2021-02-13 03:38:15 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AttendencesController#index as HTML
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCheck Load (1.7ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 1)[0m
+  ↳ app/admin/attendences.rb:13:in `attendences'
+  [1m[36mCheck Load (0.9ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 2)[0m
+  ↳ app/admin/attendences.rb:14:in `attendences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  [1m[36mCheck Load (0.5ms)[0m  [1m[34mSELECT "checks".* FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2)[0m
+  ↳ app/views/admin/attendences/_attendences.html.erb:27
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  Rendered admin/attendences/_attendences.html.erb (Duration: 11.7ms | Allocations: 3100)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 3042.1ms | Allocations: 213890)
+Completed 200 OK in 3057ms (Views: 3042.0ms | ActiveRecord: 4.5ms | Allocations: 217265)
+
+
+Started GET "/admin/attendences" for 172.18.0.1 at 2021-02-13 03:38:48 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AttendencesController#index as HTML
+  [1m[36mAdminUser Load (0.8ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCheck Load (0.8ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 1)[0m
+  ↳ app/admin/attendences.rb:13:in `attendences'
+  [1m[36mCheck Load (0.8ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 2)[0m
+  ↳ app/admin/attendences.rb:14:in `attendences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  [1m[36mCheck Load (0.6ms)[0m  [1m[34mSELECT "checks".* FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2)[0m
+  ↳ app/views/admin/attendences/_attendences.html.erb:27
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  Rendered admin/attendences/_attendences.html.erb (Duration: 10.9ms | Allocations: 3100)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 3163.9ms | Allocations: 214325)
+Completed 200 OK in 3183ms (Views: 3164.0ms | ActiveRecord: 3.4ms | Allocations: 217704)
+
+
+Started GET "/admin/attendences" for 172.18.0.1 at 2021-02-13 03:39:00 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AttendencesController#index as HTML
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCheck Load (0.8ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 1)[0m
+  ↳ app/admin/attendences.rb:13:in `attendences'
+  [1m[36mCheck Load (0.6ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 2)[0m
+  ↳ app/admin/attendences.rb:14:in `attendences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  [1m[36mCheck Load (0.5ms)[0m  [1m[34mSELECT "checks".* FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2)[0m
+  ↳ app/views/admin/attendences/_attendences.html.erb:27
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  Rendered admin/attendences/_attendences.html.erb (Duration: 9.8ms | Allocations: 3101)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 2952.3ms | Allocations: 213211)
+Completed 200 OK in 2968ms (Views: 2952.4ms | ActiveRecord: 2.8ms | Allocations: 216573)
+
+
+Started GET "/admin/attendences" for 172.18.0.1 at 2021-02-13 03:40:15 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AttendencesController#index as HTML
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCheck Load (0.8ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 1)[0m
+  ↳ app/admin/attendences.rb:13:in `attendences'
+  [1m[36mCheck Load (0.8ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 2)[0m
+  ↳ app/admin/attendences.rb:14:in `attendences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  [1m[36mCheck Load (0.7ms)[0m  [1m[34mSELECT "checks".* FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2)[0m
+  ↳ app/views/admin/attendences/_attendences.html.erb:27
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  Rendered admin/attendences/_attendences.html.erb (Duration: 10.5ms | Allocations: 3100)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 3046.7ms | Allocations: 213811)
+Completed 200 OK in 3063ms (Views: 3046.8ms | ActiveRecord: 3.3ms | Allocations: 217170)
+
+
+Started GET "/admin/attendences" for 172.18.0.1 at 2021-02-13 03:40:45 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AttendencesController#index as HTML
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCheck Load (0.6ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 1)[0m
+  ↳ app/admin/attendences.rb:13:in `attendences'
+  [1m[36mCheck Load (1.0ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 2)[0m
+  ↳ app/admin/attendences.rb:14:in `attendences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  [1m[36mCheck Load (0.6ms)[0m  [1m[34mSELECT "checks".* FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2)[0m
+  ↳ app/views/admin/attendences/_attendences.html.erb:27
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  Rendered admin/attendences/_attendences.html.erb (Duration: 10.5ms | Allocations: 3100)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 3120.6ms | Allocations: 213814)
+Completed 200 OK in 3133ms (Views: 3121.0ms | ActiveRecord: 3.0ms | Allocations: 217183)
+
+
+Started GET "/admin/attendences" for 172.18.0.1 at 2021-02-13 03:41:15 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AttendencesController#index as HTML
+  [1m[36mAdminUser Load (1.6ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCheck Load (0.9ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 1)[0m
+  ↳ app/admin/attendences.rb:13:in `attendences'
+  [1m[36mCheck Load (1.0ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 2)[0m
+  ↳ app/admin/attendences.rb:14:in `attendences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  [1m[36mCheck Load (0.7ms)[0m  [1m[34mSELECT "checks".* FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2)[0m
+  ↳ app/views/admin/attendences/_attendences.html.erb:27
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  Rendered admin/attendences/_attendences.html.erb (Duration: 12.4ms | Allocations: 3101)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 3292.4ms | Allocations: 213829)
+Completed 200 OK in 3324ms (Views: 3292.5ms | ActiveRecord: 4.8ms | Allocations: 217202)
+
+
+Started GET "/admin/attendences" for 172.18.0.1 at 2021-02-13 03:42:20 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AttendencesController#index as HTML
+  [1m[36mAdminUser Load (1.3ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCheck Load (0.8ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 1)[0m
+  ↳ app/admin/attendences.rb:13:in `attendences'
+  [1m[36mCheck Load (1.1ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 2)[0m
+  ↳ app/admin/attendences.rb:14:in `attendences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  [1m[36mCheck Load (0.7ms)[0m  [1m[34mSELECT "checks".* FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2)[0m
+  ↳ app/views/admin/attendences/_attendences.html.erb:27
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  Rendered admin/attendences/_attendences.html.erb (Duration: 13.7ms | Allocations: 3100)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 2942.6ms | Allocations: 213834)
+Completed 200 OK in 2969ms (Views: 2942.5ms | ActiveRecord: 4.6ms | Allocations: 217189)
+
+
+Started GET "/admin/attendences" for 172.18.0.1 at 2021-02-13 03:42:26 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AttendencesController#index as HTML
+  [1m[36mAdminUser Load (0.7ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCheck Load (1.0ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 1)[0m
+  ↳ app/admin/attendences.rb:13:in `attendences'
+  [1m[36mCheck Load (0.9ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 2)[0m
+  ↳ app/admin/attendences.rb:14:in `attendences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  [1m[36mCheck Load (0.5ms)[0m  [1m[34mSELECT "checks".* FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2)[0m
+  ↳ app/views/admin/attendences/_attendences.html.erb:27
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  Rendered admin/attendences/_attendences.html.erb (Duration: 10.5ms | Allocations: 3100)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 64.3ms | Allocations: 28824)
+Completed 200 OK in 86ms (Views: 68.6ms | ActiveRecord: 3.6ms | Allocations: 32181)
+
+
+Started GET "/admin/attendences" for 172.18.0.1 at 2021-02-13 05:08:24 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AttendencesController#index as HTML
+  [1m[36mAdminUser Load (1.5ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCheck Load (4.8ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 1)[0m
+  ↳ app/admin/attendences.rb:13:in `attendences'
+  [1m[36mCheck Load (0.8ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 2)[0m
+  ↳ app/admin/attendences.rb:14:in `attendences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  [1m[36mCheck Load (0.6ms)[0m  [1m[34mSELECT "checks".* FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2)[0m
+  ↳ app/views/admin/attendences/_attendences.html.erb:27
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  Rendered admin/attendences/_attendences.html.erb (Duration: 11.4ms | Allocations: 3126)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 3782.1ms | Allocations: 213258)
+Completed 200 OK in 3810ms (Views: 3782.1ms | ActiveRecord: 9.1ms | Allocations: 216795)
+
+
+Started GET "/admin/attendences" for 172.18.0.1 at 2021-02-13 05:11:37 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AttendencesController#index as HTML
+  [1m[36mAdminUser Load (1.5ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCheck Load (1.8ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 1)[0m
+  ↳ app/admin/attendences.rb:13:in `attendences'
+  [1m[36mCheck Load (1.3ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 2)[0m
+  ↳ app/admin/attendences.rb:14:in `attendences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  [1m[36mCheck Load (0.6ms)[0m  [1m[34mSELECT "checks".* FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2)[0m
+  ↳ app/views/admin/attendences/_attendences.html.erb:27
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  Rendered admin/attendences/_attendences.html.erb (Duration: 11.4ms | Allocations: 3126)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 3107.9ms | Allocations: 213263)
+Completed 200 OK in 3130ms (Views: 3108.8ms | ActiveRecord: 7.9ms | Allocations: 216807)
+
+
+Started GET "/admin/attendences" for 172.18.0.1 at 2021-02-13 05:11:57 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AttendencesController#index as HTML
+  [1m[36mAdminUser Load (2.1ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCheck Load (1.3ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 1)[0m
+  ↳ app/admin/attendences.rb:13:in `attendences'
+  [1m[36mCheck Load (0.8ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 2)[0m
+  ↳ app/admin/attendences.rb:14:in `attendences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  [1m[36mCheck Load (0.6ms)[0m  [1m[34mSELECT "checks".* FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2)[0m
+  ↳ app/views/admin/attendences/_attendences.html.erb:27
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  Rendered admin/attendences/_attendences.html.erb (Duration: 9.6ms | Allocations: 3100)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 2886.3ms | Allocations: 213220)
+Completed 200 OK in 2919ms (Views: 2887.1ms | ActiveRecord: 5.4ms | Allocations: 216579)
+
+
+Started GET "/admin/attendences" for 172.18.0.1 at 2021-02-13 05:12:18 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AttendencesController#index as HTML
+  [1m[36mAdminUser Load (0.7ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCheck Load (0.8ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 1)[0m
+  ↳ app/admin/attendences.rb:13:in `attendences'
+  [1m[36mCheck Load (0.7ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 2)[0m
+  ↳ app/admin/attendences.rb:14:in `attendences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  [1m[36mCheck Load (0.7ms)[0m  [1m[34mSELECT "checks".* FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2)[0m
+  ↳ app/views/admin/attendences/_attendences.html.erb:27
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  Rendered admin/attendences/_attendences.html.erb (Duration: 11.8ms | Allocations: 3100)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 3118.1ms | Allocations: 214785)
+Completed 200 OK in 3134ms (Views: 3117.9ms | ActiveRecord: 3.6ms | Allocations: 218148)
+
+
+Started GET "/admin/attendences" for 172.18.0.1 at 2021-02-13 05:14:04 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AttendencesController#index as HTML
+  [1m[36mAdminUser Load (0.9ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCheck Load (0.6ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 1)[0m
+  ↳ app/admin/attendences.rb:13:in `attendences'
+  [1m[36mCheck Load (0.7ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 2)[0m
+  ↳ app/admin/attendences.rb:14:in `attendences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  [1m[36mCheck Load (0.5ms)[0m  [1m[34mSELECT "checks".* FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2)[0m
+  ↳ app/views/admin/attendences/_attendences.html.erb:27
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  Rendered admin/attendences/_attendences.html.erb (Duration: 10.1ms | Allocations: 3100)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 3229.5ms | Allocations: 213225)
+Completed 200 OK in 3246ms (Views: 3229.3ms | ActiveRecord: 3.3ms | Allocations: 216586)
+
+
+Started GET "/admin/attendences" for 172.18.0.1 at 2021-02-13 05:14:13 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AttendencesController#index as HTML
+  [1m[36mAdminUser Load (1.7ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCheck Load (1.8ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 1)[0m
+  ↳ app/admin/attendences.rb:13:in `attendences'
+  [1m[36mCheck Load (1.3ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 2)[0m
+  ↳ app/admin/attendences.rb:14:in `attendences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  [1m[36mCheck Load (0.6ms)[0m  [1m[34mSELECT "checks".* FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2)[0m
+  ↳ app/views/admin/attendences/_attendences.html.erb:27
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  Rendered admin/attendences/_attendences.html.erb (Duration: 12.6ms | Allocations: 3100)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 3186.1ms | Allocations: 215267)
+Completed 200 OK in 3231ms (Views: 3186.8ms | ActiveRecord: 6.2ms | Allocations: 218640)
+
+
+Started GET "/admin/attendences" for 172.18.0.1 at 2021-02-13 05:14:43 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AttendencesController#index as HTML
+  [1m[36mAdminUser Load (1.5ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCheck Load (0.8ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 1)[0m
+  ↳ app/admin/attendences.rb:13:in `attendences'
+  [1m[36mCheck Load (0.8ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 2)[0m
+  ↳ app/admin/attendences.rb:14:in `attendences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  [1m[36mCheck Load (0.6ms)[0m  [1m[34mSELECT "checks".* FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2)[0m
+  ↳ app/views/admin/attendences/_attendences.html.erb:27
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  Rendered admin/attendences/_attendences.html.erb (Duration: 8.6ms | Allocations: 3100)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 2967.5ms | Allocations: 215237)
+Completed 200 OK in 2987ms (Views: 2967.5ms | ActiveRecord: 4.3ms | Allocations: 218608)
+
+
+Started GET "/admin/attendences" for 172.18.0.1 at 2021-02-13 05:15:02 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AttendencesController#index as HTML
+  [1m[36mAdminUser Load (0.9ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCheck Load (0.9ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 1)[0m
+  ↳ app/admin/attendences.rb:13:in `attendences'
+  [1m[36mCheck Load (0.7ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 2)[0m
+  ↳ app/admin/attendences.rb:14:in `attendences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  [1m[36mCheck Load (0.5ms)[0m  [1m[34mSELECT "checks".* FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2)[0m
+  ↳ app/views/admin/attendences/_attendences.html.erb:27
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  Rendered admin/attendences/_attendences.html.erb (Duration: 9.3ms | Allocations: 3100)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 2951.2ms | Allocations: 214320)
+Completed 200 OK in 2972ms (Views: 2951.2ms | ActiveRecord: 3.4ms | Allocations: 217677)
+
+
+Started GET "/admin/attendences" for 172.18.0.1 at 2021-02-13 05:15:11 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AttendencesController#index as HTML
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCheck Load (0.7ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 1)[0m
+  ↳ app/admin/attendences.rb:13:in `attendences'
+  [1m[36mCheck Load (0.7ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 2)[0m
+  ↳ app/admin/attendences.rb:14:in `attendences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  [1m[36mCheck Load (0.5ms)[0m  [1m[34mSELECT "checks".* FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2)[0m
+  ↳ app/views/admin/attendences/_attendences.html.erb:27
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  Rendered admin/attendences/_attendences.html.erb (Duration: 11.2ms | Allocations: 3100)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 2850.9ms | Allocations: 215281)
+Completed 200 OK in 2865ms (Views: 2851.3ms | ActiveRecord: 3.1ms | Allocations: 218646)
+
+
+Started GET "/admin/attendences" for 172.18.0.1 at 2021-02-13 05:15:28 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AttendencesController#index as HTML
+  [1m[36mAdminUser Load (2.5ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCheck Load (2.6ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 1)[0m
+  ↳ app/admin/attendences.rb:13:in `attendences'
+  [1m[36mCheck Load (0.8ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 2)[0m
+  ↳ app/admin/attendences.rb:14:in `attendences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  [1m[36mCheck Load (0.5ms)[0m  [1m[34mSELECT "checks".* FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2)[0m
+  ↳ app/views/admin/attendences/_attendences.html.erb:27
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  Rendered admin/attendences/_attendences.html.erb (Duration: 11.1ms | Allocations: 3126)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 2880.0ms | Allocations: 214385)
+Completed 200 OK in 2907ms (Views: 2880.1ms | ActiveRecord: 7.7ms | Allocations: 217919)
+
+
+Started GET "/admin/attendences" for 172.18.0.1 at 2021-02-13 05:15:41 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AttendencesController#index as HTML
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCheck Load (1.4ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 1)[0m
+  ↳ app/admin/attendences.rb:13:in `attendences'
+  [1m[36mCheck Load (2.1ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 2)[0m
+  ↳ app/admin/attendences.rb:14:in `attendences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  [1m[36mCheck Load (0.5ms)[0m  [1m[34mSELECT "checks".* FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2)[0m
+  ↳ app/views/admin/attendences/_attendences.html.erb:27
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  Rendered admin/attendences/_attendences.html.erb (Duration: 9.6ms | Allocations: 3100)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 3041.5ms | Allocations: 213839)
+Completed 200 OK in 3058ms (Views: 3041.6ms | ActiveRecord: 5.4ms | Allocations: 217212)
+
+
+Started GET "/admin/attendences" for 172.18.0.1 at 2021-02-13 05:16:01 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AttendencesController#index as HTML
+  [1m[36mAdminUser Load (1.1ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCheck Load (1.2ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 1)[0m
+  ↳ app/admin/attendences.rb:13:in `attendences'
+  [1m[36mCheck Load (0.9ms)[0m  [1m[34mSELECT AVG(CAST(created_at AS TIME)) as average FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2 and type_check = 2)[0m
+  ↳ app/admin/attendences.rb:14:in `attendences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  [1m[36mCheck Load (0.6ms)[0m  [1m[34mSELECT "checks".* FROM "checks" WHERE (EXTRACT(MONTH from created_at) = 2)[0m
+  ↳ app/views/admin/attendences/_attendences.html.erb:27
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/attendences/_attendences.html.erb:30
+  Rendered admin/attendences/_attendences.html.erb (Duration: 12.0ms | Allocations: 3100)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 78.5ms | Allocations: 28667)
+Completed 200 OK in 102ms (Views: 78.6ms | ActiveRecord: 4.5ms | Allocations: 32042)
+
+
+Started GET "/admin/absences" for 172.18.0.1 at 2021-02-13 05:16:02 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AbsencesController#index as HTML
+  [1m[36mAdminUser Load (2.0ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (45.7ms)[0m  [1m[34mSELECT * FROM absences(2);[0m
+  ↳ app/admin/absences.rb:12:in `absences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  Rendered admin/absences/_absences.html.erb (Duration: 44.5ms | Allocations: 779)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 166.6ms | Allocations: 26746)
+Completed 200 OK in 372ms (Views: 174.2ms | ActiveRecord: 47.7ms | Allocations: 29930)
+
+
+Started POST "/admin/absences" for 172.18.0.1 at 2021-02-13 05:16:13 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Admin::AbsencesController#index as HTML
+  Parameters: {"authenticity_token"=>"RwQE4GlMjnbeknPiI+iP7O+IzF2KtZxruyfKDAlTqFfA6SP2/+UjMqmg6xufntrNO/0y0EhhrBX7g221zw8vXw==", "abs"=>"", "month"=>"8", "commit"=>"Get Report"}
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT * FROM absences(8);[0m
+  ↳ app/admin/absences.rb:12:in `absences'
+  Rendering /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb
+  Rendered admin/absences/_absences.html.erb (Duration: 1.2ms | Allocations: 446)
+  Rendered /usr/local/bundle/gems/activeadmin-2.9.0/app/views/active_admin/page/index.html.arb (Duration: 57.4ms | Allocations: 26173)
+Completed 200 OK in 69ms (Views: 58.3ms | ActiveRecord: 1.9ms | Allocations: 28564)
+
+
+Started GET "/checks" for 172.18.0.1 at 2021-02-13 05:16:19 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ChecksController#show as HTML
+  Rendering checks/show.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered checks/show.html.erb within layouts/application (Duration: 270.1ms | Allocations: 3606)
+Started GET "/checks" for 172.18.0.1 at 2021-02-13 05:16:23 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by ChecksController#show as HTML
+  Rendering checks/show.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered checks/show.html.erb within layouts/application (Duration: 9.0ms | Allocations: 2938)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3516ms (Views: 3507.4ms | ActiveRecord: 0.0ms | Allocations: 175320)
+
+
+Started GET "/checks" for 172.18.0.1 at 2021-02-13 05:20:33 +0000
+Cannot render console from 172.18.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (32.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ChecksController#show as HTML
+  Rendering checks/show.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /checker/public/packs
+[Webpacker] Hash: 27228ef3fd7faed3445b
+Version: webpack 4.46.0
+Time: 5022ms
+Built at: 02/13/2021 5:20:51 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-c229f7c7014cf8c8d494.js    124 KiB  application  [emitted] [immutable]  application
+js/application-c229f7c7014cf8c8d494.js.map    139 KiB  application  [emitted] [dev]        application
+          js/check-03118146a50bfe9533e4.js   4.44 KiB        check  [emitted] [immutable]  check
+      js/check-03118146a50bfe9533e4.js.map    4.3 KiB        check  [emitted] [dev]        check
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-c229f7c7014cf8c8d494.js js/application-c229f7c7014cf8c8d494.js.map
+Entrypoint check = js/check-03118146a50bfe9533e4.js js/check-03118146a50bfe9533e4.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/check.js] 592 bytes {check} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered checks/show.html.erb within layouts/application (Duration: 17620.0ms | Allocations: 499550)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18814ms (Views: 18759.0ms | ActiveRecord: 32.1ms | Allocations: 577609)
+
+

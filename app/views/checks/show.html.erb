@@ -7,7 +7,7 @@
 <div class="container">
   <%=image_tag("logo.png", :class => "img-logo mx-auto")%><br>
   <%= form_with model: @check, :html => {:id => 'frmCheck'} do |form| %>
-      <label class="form-label">Enter your employee number</label>
+      <label class="form-label">Enter your employeer number</label>
       <%= form.number_field :private_number, :id => "txtPNumber", :class => "form-control" %>
       <div class="grid mt-5">
           <%= form.submit "Check", :id => "btnCheck", class: 'btn button-primary mt-5' %>
