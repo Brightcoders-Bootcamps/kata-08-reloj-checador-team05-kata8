@@ -1,0 +1,19 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  host: postgres_db
+  username: root
+  password: teamkongmdfk00
+  pool: 5
+
+development:
+  <<: *default
+  database: checker_db_development
+
+test:
+  <<: *default
+  database: checker_db_test
+
+production:
+  <<: *default
+  database: checker_db_production

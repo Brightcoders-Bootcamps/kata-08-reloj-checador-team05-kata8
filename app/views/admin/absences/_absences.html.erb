@@ -1,0 +1,32 @@
+<div class="container-report">
+    <%= form_tag( '/admin/absences' , method: "post", class: "form-report") do |f| %>
+     <%months = (1..12).map {|value| [Date::MONTHNAMES[value], value] } %>
+        <input type="hidden" name="abs">
+        <label>Month</label>
+        <select name="month">
+            <%= options_for_select(months, @month != "" ? @month : 1) %>
+        </select>
+    <%= submit_tag("Get Report") %>
+    <% end %>
+    <div class="report-average">
+        <label class="lbl-avg">Absences Average: <span><%= @report.inject(0){|sum, x| sum + x["absences"].to_i}%></span></label>
+    </div>
+</div>
+<table>
+    <thead>
+        <tr>
+            <th>Private Number</th>
+            <th>Name</th>
+            <th>Absences</th>
+        <tr>
+    </thead>
+    <tbody>
+        <% @report.each do |element| %>
+        <tr>
+            <td><%= element["private_number"] %></td>
+            <td><%= element["name"] %></td>
+            <td><%= element["absences"] == nil ? 0 : element["absences"] %></td>
+        </tr>
+        <%end%>
+    </tbody>
+</table>

@@ -1,0 +1,18 @@
+  <table>
+      <thead>
+        <tr>
+          <th>Private Number</th>
+          <th>Name</th>
+          <th>Absences</th>
+        <tr>
+      </thead>
+    <tbody>
+      <% @month_absences.each do |user| %>
+        <tr>
+          <td><%= user["private_number"] %></td>
+          <td><%= user["name"] %></td>
+          <td><%= user["absences"]%></td>
+        </tr>
+      <%end%>
+    </tbody>
+  </table>
