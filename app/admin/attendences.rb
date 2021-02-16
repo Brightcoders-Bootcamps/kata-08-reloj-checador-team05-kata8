@@ -8,12 +8,15 @@ ActiveAdmin.register_page "Attendences" do
         end 
 
         def attendences 
-            @month = params[:month] != nil ? params[:month] : Time.now.strftime("%m").to_i
-            @report = Check.where("EXTRACT(MONTH from created_at) = #{@month}")
-            @avg_in = Check.select("AVG(CAST(created_at AS TIME)) as average").where("EXTRACT(MONTH from created_at) = 2 and type_check = 1")[0]
-            @avg_out = Check.select("AVG(CAST(created_at AS TIME)) as average").where("EXTRACT(MONTH from created_at) = 2 and type_check = 2")[0]
-            @avg_in = format_hour(@avg_in[:average])
-            @avg_out = format_hour(@avg_out[:average])
+            @date_from = params[:date_from] != nil ? params[:date_from] : Time.now.strftime("%Y-%m-%d").to_s
+            @date_to = params[:date_to] != nil ? params[:date_to] : Time.now.strftime("%Y-%m-%d").to_s
+            puts "today ---- #{@date_from}"
+            @report = Check.where("created_at BETWEEN '#{@date_from}'::timestamp and '#{@date_to}'::timestamp")
+            @avg_in = Check.select("AVG(CAST(created_at AS TIME)) as average").where("created_at BETWEEN '#{@date_from}'::timestamp and '#{@date_to}'::timestamp and type_check = 1")[0]
+            @avg_out = Check.select("AVG(CAST(created_at AS TIME)) as average").where("created_at BETWEEN '#{@date_from}'::timestamp and '#{@date_to}'::timestamp and type_check = 2")[0]
+            
+            @avg_in = @avg_in[:average].is_a?(NilClass) ? '--' : format_hour(@avg_in[:average]) 
+            @avg_out = @avg_out[:average].is_a?(NilClass) ? '--' : format_hour(@avg_out[:average])
         end
 
         def format_hour(str_hour)

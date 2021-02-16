@@ -1,12 +1,11 @@
 <div class="container-report">
-    <%= form_tag( '/admin/attendences' , method: "post", class: "form-report") do |f| %>
+    <%= form_tag( '/admin/attendences' , method: "post", class: "form-report", id: "frmReport") do |f| %>
      <%months = (1..12).map {|value| [Date::MONTHNAMES[value], value] } %>
-        <input type="hidden" name="abs">
-        <label>Month</label>
-        <select name="month">
-            <%= options_for_select(months, @month != "" ? @month : 1) %>
-        </select>
-    <%= submit_tag("Get Report") %>
+        <label>From</label>
+        <input type="text" id="date_from" name="date_from" value="<%=@date_from%>" required>
+        <label>To</label>
+        <input type="text" id="date_to" name="date_to" value="<%=@date_to%>" required>
+        <input type="submit" id="btnReport">
     <% end %>
     <div class="report-average">
         <div class="lbl-avg">Check In Average: <span><%= @avg_in%></span></div>
@@ -35,3 +34,4 @@
         <%end%>
     </tbody>
 </table>
+<%= javascript_pack_tag 'attendences.js'%>
