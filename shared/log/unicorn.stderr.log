@@ -1,0 +1,144 @@
+I, [2021-02-16T20:21:12.418586 #20754]  INFO -- : Refreshing Gem list
+/home/pedro/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/definition.rb:495:in `validate_ruby!': Your Ruby version is 2.7.0, but your Gemfile specified 3.0.0 (Bundler::RubyVersionMismatch)
+	from /home/pedro/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/definition.rb:470:in `validate_runtime!'
+	from /home/pedro/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler.rb:143:in `setup'
+	from /home/pedro/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/setup.rb:20:in `block in <top (required)>'
+	from /home/pedro/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/ui/shell.rb:136:in `with_level'
+	from /home/pedro/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/ui/shell.rb:88:in `silence'
+	from /home/pedro/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/bundler/setup.rb:20:in `<top (required)>'
+	from /home/pedro/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/rubygems/core_ext/kernel_require.rb:92:in `require'
+	from /home/pedro/.rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/rubygems/core_ext/kernel_require.rb:92:in `require'
+	from /home/pedro/checker/config/boot.rb:3:in `<top (required)>'
+	from /home/pedro/checker/config/application.rb:1:in `require_relative'
+	from /home/pedro/checker/config/application.rb:1:in `<top (required)>'
+	from /home/pedro/checker/config/environment.rb:2:in `require_relative'
+	from /home/pedro/checker/config/environment.rb:2:in `<top (required)>'
+	from config.ru:4:in `require_relative'
+	from config.ru:4:in `block in <main>'
+	from /home/pedro/.rvm/gems/ruby-2.7.0/gems/rack-2.2.3/lib/rack/builder.rb:125:in `instance_eval'
+	from /home/pedro/.rvm/gems/ruby-2.7.0/gems/rack-2.2.3/lib/rack/builder.rb:125:in `initialize'
+	from config.ru:1:in `new'
+	from config.ru:1:in `<main>'
+	from /home/pedro/.rvm/gems/ruby-2.7.0/gems/unicorn-5.8.0/lib/unicorn.rb:54:in `eval'
+	from /home/pedro/.rvm/gems/ruby-2.7.0/gems/unicorn-5.8.0/lib/unicorn.rb:54:in `block in builder'
+	from /home/pedro/.rvm/gems/ruby-2.7.0/gems/unicorn-5.8.0/lib/unicorn/http_server.rb:826:in `build_app!'
+	from /home/pedro/.rvm/gems/ruby-2.7.0/gems/unicorn-5.8.0/lib/unicorn/http_server.rb:141:in `start'
+	from /home/pedro/.rvm/gems/ruby-2.7.0/gems/unicorn-5.8.0/bin/unicorn:128:in `<top (required)>'
+	from /home/pedro/.rvm/gems/ruby-2.7.0/bin/unicorn:23:in `load'
+	from /home/pedro/.rvm/gems/ruby-2.7.0/bin/unicorn:23:in `<main>'
+	from /home/pedro/.rvm/gems/ruby-2.7.0/bin/ruby_executable_hooks:24:in `eval'
+	from /home/pedro/.rvm/gems/ruby-2.7.0/bin/ruby_executable_hooks:24:in `<main>'
+I, [2021-02-16T20:23:55.698257 #21550]  INFO -- : Refreshing Gem list
+warning Integrity check: System parameters don't match
+error Integrity check failed
+error Found 1 errors.
+
+
+========================================
+  Your Yarn packages are out of date!
+  Please run `yarn install --check-files` to update.
+========================================
+
+
+To disable this check, please change `check_yarn_integrity`
+to `false` in your webpacker config file (config/webpacker.yml).
+
+
+yarn check v1.22.5
+info Visit https://yarnpkg.com/en/docs/cli/check for documentation about this command.
+
+
+I, [2021-02-16T20:24:45.400965 #21587]  INFO -- : Refreshing Gem list
+warning Integrity check: System parameters don't match
+error Integrity check failed
+error Found 1 errors.
+
+
+========================================
+  Your Yarn packages are out of date!
+  Please run `yarn install --check-files` to update.
+========================================
+
+
+To disable this check, please change `check_yarn_integrity`
+to `false` in your webpacker config file (config/webpacker.yml).
+
+
+yarn check v1.22.5
+info Visit https://yarnpkg.com/en/docs/cli/check for documentation about this command.
+
+
+I, [2021-02-16T20:24:57.337993 #21713]  INFO -- : Refreshing Gem list
+warning Integrity check: System parameters don't match
+error Integrity check failed
+error Found 1 errors.
+
+
+========================================
+  Your Yarn packages are out of date!
+  Please run `yarn install --check-files` to update.
+========================================
+
+
+To disable this check, please change `check_yarn_integrity`
+to `false` in your webpacker config file (config/webpacker.yml).
+
+
+yarn check v1.22.5
+info Visit https://yarnpkg.com/en/docs/cli/check for documentation about this command.
+
+
+I, [2021-02-16T20:27:38.435793 #21847]  INFO -- : Refreshing Gem list
+I, [2021-02-16T20:27:44.500116 #21847]  INFO -- : listening on addr=/home/pedro/checker/shared/sockets/unicorn.sock fd=20
+I, [2021-02-16T20:27:44.500455 #21847]  INFO -- : worker=0 spawning...
+I, [2021-02-16T20:27:44.503278 #21847]  INFO -- : worker=1 spawning...
+I, [2021-02-16T20:27:44.504102 #21901]  INFO -- : worker=0 spawned pid=21901
+I, [2021-02-16T20:27:44.504328 #21901]  INFO -- : worker=0 ready
+I, [2021-02-16T20:27:44.506156 #21847]  INFO -- : master process ready
+I, [2021-02-16T20:27:44.507264 #21902]  INFO -- : worker=1 spawned pid=21902
+I, [2021-02-16T20:27:44.507525 #21902]  INFO -- : worker=1 ready
+/home/pedro/.rvm/gems/ruby-3.0.0/gems/unicorn-5.8.0/lib/unicorn/http_server.rb:207:in `pid=': Already running on PID:21847 (or pid=/home/pedro/checker/shared/pids/unicorn.pid is stale) (ArgumentError)
+	from /home/pedro/.rvm/gems/ruby-3.0.0/gems/unicorn-5.8.0/lib/unicorn/http_server.rb:139:in `start'
+	from /home/pedro/.rvm/gems/ruby-3.0.0/gems/unicorn-5.8.0/bin/unicorn:128:in `<top (required)>'
+	from /home/pedro/.rvm/gems/ruby-3.0.0/bin/unicorn:23:in `load'
+	from /home/pedro/.rvm/gems/ruby-3.0.0/bin/unicorn:23:in `<main>'
+127.0.0.1 - - [16/Feb/2021:20:36:52 -0600] "GET / HTTP/1.0" 500 118890 0.7472
+127.0.0.1 - - [16/Feb/2021:20:36:52 -0600] "GET /favicon.ico HTTP/1.0" 200 - 0.0302
+127.0.0.1 - - [16/Feb/2021:20:40:06 -0600] "GET / HTTP/1.0" 500 118890 0.6165
+127.0.0.1 - - [16/Feb/2021:20:40:06 -0600] "GET /favicon.ico HTTP/1.0" 200 - 0.0479
+127.0.0.1 - - [16/Feb/2021:20:42:08 -0600] "GET / HTTP/1.0" 500 118890 0.2041
+127.0.0.1 - - [16/Feb/2021:20:42:08 -0600] "GET /favicon.ico HTTP/1.0" 200 - 0.0020
+I, [2021-02-16T20:42:49.722686 #21847]  INFO -- : reaped #<Process::Status: pid 21901 exit 0> worker=0
+I, [2021-02-16T20:42:49.722783 #21847]  INFO -- : reaped #<Process::Status: pid 21902 exit 0> worker=1
+I, [2021-02-16T20:42:49.722878 #21847]  INFO -- : master complete
+I, [2021-02-16T20:43:00.206105 #23145]  INFO -- : Refreshing Gem list
+I, [2021-02-16T20:43:04.437490 #23145]  INFO -- : unlinking existing socket=/home/pedro/checker/shared/sockets/unicorn.sock
+I, [2021-02-16T20:43:04.437796 #23145]  INFO -- : listening on addr=/home/pedro/checker/shared/sockets/unicorn.sock fd=19
+I, [2021-02-16T20:43:04.438070 #23145]  INFO -- : worker=0 spawning...
+I, [2021-02-16T20:43:04.440496 #23145]  INFO -- : worker=1 spawning...
+I, [2021-02-16T20:43:04.441345 #23198]  INFO -- : worker=0 spawned pid=23198
+I, [2021-02-16T20:43:04.441583 #23198]  INFO -- : worker=0 ready
+I, [2021-02-16T20:43:04.443300 #23145]  INFO -- : master process ready
+I, [2021-02-16T20:43:04.444261 #23199]  INFO -- : worker=1 spawned pid=23199
+I, [2021-02-16T20:43:04.444445 #23199]  INFO -- : worker=1 ready
+127.0.0.1 - - [16/Feb/2021:20:43:07 -0600] "GET / HTTP/1.0" 200 399725 0.7892
+127.0.0.1 - - [16/Feb/2021:20:43:07 -0600] "GET /favicon.ico HTTP/1.0" 200 - 0.0035
+127.0.0.1 - - [16/Feb/2021:20:43:18 -0600] "GET /checks HTTP/1.0" 200 1470 6.5487
+127.0.0.1 - - [16/Feb/2021:20:43:18 -0600] "GET /packs/js/application-c229f7c7014cf8c8d494.js HTTP/1.0" 200 126959 0.0216
+127.0.0.1 - - [16/Feb/2021:20:43:18 -0600] "GET /packs/js/check-03118146a50bfe9533e4.js HTTP/1.0" 200 4546 0.0018
+127.0.0.1 - - [16/Feb/2021:20:43:18 -0600] "GET /assets/application.debug-cbec5a99c94d542a73811da00d03461cbccc21f20aaa8d69571e3f475f49d6d9.css HTTP/1.0" 200 315627 0.1047
+127.0.0.1 - - [16/Feb/2021:20:43:18 -0600] "GET /assets/logo-4e8dc48b7910384d3cfa96148f74b145d783202efb0cad3cb8fd1f07795a94c2.png HTTP/1.0" 200 15514 0.4375
+127.0.0.1 - - [16/Feb/2021:20:43:27 -0600] "GET /admin HTTP/1.0" 200 3245 2.0689
+127.0.0.1 - - [16/Feb/2021:20:43:27 -0600] "GET /assets/active_admin.debug-897d4c61bf846457301d54eb4c98dc38cd8bce7647c28573abaf03d3a751075c.css HTTP/1.0" 200 339103 0.0379
+127.0.0.1 - - [16/Feb/2021:20:43:27 -0600] "GET /assets/active_admin/print.debug-bb14e8a6712f69e1ed6ea395d215cfe69c6ac6862974414c689f3df8f3cda8b4.css HTTP/1.0" 200 29807 0.0089
+127.0.0.1 - - [16/Feb/2021:20:43:27 -0600] "GET /assets/active_admin.debug-40fe00ea858daccd3f67fbeeeb76c5c3312ca13d024c64411b88ec0ef9e3e957.js HTTP/1.0" 200 947462 0.0619
+127.0.0.1 - - [16/Feb/2021:20:43:27 -0600] "GET /assets/Lato-Regular-ac623c4f4d28763b570eb344074ec263f6ea490b14587c7671e5c5bf2cdc7897.woff2 HTTP/1.0" 200 182708 0.0464
+127.0.0.1 - - [16/Feb/2021:20:43:27 -0600] "GET /assets/Lato-Bold-930842c5cb550531ca35a6c29b948ba0a5dc3d2f3d4fb2ffe7135f4640341576.woff2 HTTP/1.0" 200 184912 0.0585
+127.0.0.1 - - [16/Feb/2021:20:43:27 -0600] "GET /assets/font-awesome/fa-solid-900-e546fb3c56953992a5d20c52edb9e6d1b1141184b88ae19ba20a566d2ad98dbc.woff2 HTTP/1.0" 200 80300 0.0208
+127.0.0.1 - - [16/Feb/2021:20:43:29 -0600] "GET /admin/absences HTTP/1.0" 200 4484 0.1358
+127.0.0.1 - - [16/Feb/2021:20:43:30 -0600] "GET /admin/attendences HTTP/1.0" 200 4092 0.0644
+127.0.0.1 - - [16/Feb/2021:20:43:30 -0600] "GET /packs/js/attendences-1df827b50bffd12eca7e.js HTTP/1.0" 200 4705 0.0017
+127.0.0.1 - - [16/Feb/2021:20:43:38 -0600] "GET /admin/absences HTTP/1.0" 200 4484 0.0576
+I, [2021-02-16T20:44:30.847055 #23145]  INFO -- : reaped #<Process::Status: pid 23198 exit 0> worker=0
+I, [2021-02-16T20:44:30.847146 #23145]  INFO -- : reaped #<Process::Status: pid 23199 exit 0> worker=1
+I, [2021-02-16T20:44:30.847244 #23145]  INFO -- : master complete
