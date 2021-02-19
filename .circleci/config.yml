@@ -12,7 +12,9 @@ jobs:
       - run:
           name: bundle install
           command: bundle install
-      - ruby/bundle-install
+      - run:
+          name: yarn install
+          command: yarn install --check-files
       - run:
           name: create-migrate db
           command: bundle exec rails db:create db:migrate
