@@ -4,7 +4,7 @@
         <input type="hidden" name="abs">
         <label>Month</label>
         <select name="month">
-            <%= options_for_select(months, @month != "" ? @month : 1) %>
+            <%= options_for_select(months, @month) %>
         </select>
     <%= submit_tag("Get Report") %>
     <% end %>
