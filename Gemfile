@@ -34,6 +34,7 @@ gem "bootstrap_form", "~> 4.0"
 gem 'devise'
 gem 'activeadmin'
 gem 'arctic_admin'
+gem 'rexml'
 
 
 group :development, :test do
@@ -49,6 +50,12 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
+
+group :development, :test do
+  gem 'rspec-rails', '~> 4.0.2'
+  gem 'rails-controller-testing'
+end
+
 
 group :test do
   # Adds support for Capybara system testing and selenium driver
