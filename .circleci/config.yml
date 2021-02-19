@@ -14,6 +14,9 @@ jobs:
           command: bundle install
       - ruby/bundle-install
       - run:
+          name: create-migrate db
+          command: bundle exec rails db:create db:migrate
+      - run:
             name: test
             command: bundle exec rspec
 
