@@ -6,7 +6,6 @@ ActiveAdmin.register Check do
   #
   # Uncomment all parameters which should be permitted for assignment
   #
-  index title: 'Attendences by day'
   permit_params :type_check, :user_id
   #
   # or

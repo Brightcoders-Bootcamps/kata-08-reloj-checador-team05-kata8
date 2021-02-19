@@ -5,7 +5,6 @@ class ChecksController < ApplicationController
     end
 
     def create
-        
         begin
             check_p = check_params
             private_number = check_params[:private_number]
@@ -16,19 +15,18 @@ class ChecksController < ApplicationController
                 checked_created = user.checks.create({type_check: type_check})
                 msg = type_check == 1 ? "Check In at #{checked_created[:created_at].to_s}" : "Check Out at #{checked_created[:created_at].to_s}"
                 flash[:notice] = msg
-                redirect_to checks_path
+                redirect_to :show
             else
                 flash[:notice] = "You have already checked"
-                redirect_to checks_path
+                redirect_to :show
             end
         rescue Exception => e
-                
             flash[:alert] = "An error has ocurred. Try it later."
-            redirect_to checks_path
+            redirect_to :show
         end
-        
     end
 
+    private 
     def user?(user)
         if user == nil
             @error = true
@@ -40,7 +38,6 @@ class ChecksController < ApplicationController
     end
 
     def get_type_check(user_id)
-        print "user id #{user_id}"
         checks = Check.where("user_id = ? and to_char(created_at, 'dd-mm-YYYY') = ?", user_id, Time.now.strftime("%d-%m-%Y"))
         if checks.empty?
             return 1 
@@ -49,7 +46,6 @@ class ChecksController < ApplicationController
         else
             return :checked
         end
-        logger.info "checks #{checks.length.to_s}"
     end
 
     def check_params
