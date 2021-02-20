@@ -25,6 +25,3 @@ jobs:
        - run: 
            name: db load migrate
            command: bundle exec rake db:migrate
-       - run:
-           name: test
-           command: TESTFILES=$(circleci tests glob “spec/**/*_spec.rb” |    circleci tests split) bundle exec rspec — ${TESTFILES}
