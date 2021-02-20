@@ -32,3 +32,8 @@ jobs:
         - checkout
         - bundle-install/bundle-install
         - run: bundle exec rspec spec/controllers/checks_controller_spec.rb
+workflow:
+  build_test:
+    jobs:
+      - build
+      - test
