@@ -24,7 +24,7 @@ jobs:
            command: bundle exec rake db:create
        - run: 
            name: db load migrate
-           command: bundle exec rake db:load
+           command: bundle exec rake db:migrate
        - run:
            name: test
            command: bundle exec rspec
