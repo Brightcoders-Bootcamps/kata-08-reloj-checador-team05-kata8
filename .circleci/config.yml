@@ -1,5 +1,6 @@
 version: 2
 jobs:
+<<<<<<< HEAD
  build:
    docker:
      — image: circleci/ruby:3.0.0-node-browsers
