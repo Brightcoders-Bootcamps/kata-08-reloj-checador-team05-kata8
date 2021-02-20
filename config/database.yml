@@ -1,7 +1,6 @@
 default: &default
   adapter: postgresql
   encoding: unicode
-  host: postgres_db
   username: root
   password: teamkongmdfk00
   pool: 5

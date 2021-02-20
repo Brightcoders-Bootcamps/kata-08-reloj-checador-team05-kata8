@@ -1,20 +1,26 @@
-version: 2.1
-orbs:
-  ruby: circleci/ruby@0.1.2 
-
+version: 2
 jobs:
-  build:
-    docker:
-      - image: circleci/ruby:3.0.0-node
-    executor: ruby/default
-    steps:
-      - checkout
-      - run:
-          name: bundle install
-          command: bundle install
-      - ruby/bundle-install
-      - run:
-            name: test
-            command: bundle exec rspec
-
-        
+ build:
+   docker:
+     — image: circleci/ruby:3.0.0-node-browsers
+       environment:
+         RAILS_ENV: test
+     — image: circleci/postgres:10.3
+       environment:
+         POSTGRES_USER: root
+         POSTGRES_PASSWORD: “teamkongmdfk00”
+     steps:
+       — checkout
+       # Database setup
+       — run:
+         name: Create Database
+         command: bundle exec rake db:create
+       — run:
+         name: Load Database Schema
+         command: bundle exec rake db:schema:load
+       # run tests!
+       — run:
+         name: Run RSpec Tests
+         command: |
+           TESTFILES=$(circleci tests glob “spec/**/*_spec.rb” |    circleci tests split)
+         bundle exec rspec — ${TESTFILES}
