@@ -5,7 +5,7 @@ jobs:
     build:
       docker:
          - image: circleci/ruby:3.0.0-node
-         - image: circleci/pstgres
+         - image: circleci/postgres
       executor: ruby/default
       steps:
        - checkout
