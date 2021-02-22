@@ -30,6 +30,7 @@ jobs:
       docker:
          - image: circleci/ruby:3.0.0-node
       steps:
+        - checkout
         - run: bundle exec rspec spec/controllers/checks_controller_spec.rb
 workflow:
   build_test:
