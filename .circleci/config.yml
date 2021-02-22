@@ -1,5 +1,9 @@
 version: 2.1
 
+orbs:
+  ruby: circleci/ruby@1.1.2
+
+
 jobs:
     build:
       docker:
@@ -10,12 +14,7 @@ jobs:
              POSTGRES_PASSWORD: teamkongmdfk00
       steps:
        - checkout
-       - run:
-           name: bundle install
-           command: bundle install
-       - run:
-           name: yarn install
-           command: yarn install --check-files
+       - ruby/install-deps
        - run:
            name: db create
            command: bundle exec rake db:create
@@ -28,7 +27,9 @@ jobs:
          - image: circleci/ruby:3.0.0-node
       steps:
         - checkout
-        - run: bundle exec rspec spec/controllers/checks_controller_spec.rb
+        - ruby/install-deps
+        - ruby/rspec-test
+        #- run: bundle exec rspec spec/controllers/checks_controller_spec.rb
 workflows:
   build_test:
     jobs:
