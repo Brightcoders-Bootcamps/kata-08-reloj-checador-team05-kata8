@@ -33,7 +33,7 @@ jobs:
         - ruby/install-deps
         - run:
            name: tests
-           command: bundlex exec rspec
+           command: bundle exec rspec
 workflows:
   build_test:
     jobs:
