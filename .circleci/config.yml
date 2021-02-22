@@ -16,6 +16,9 @@ jobs:
        - checkout
        - ruby/install-deps
        - run:
+          name: yarn
+          command: yarn install --check-files
+       - run:
            name: db create
            command: bundle exec rake db:create
        - run: 
