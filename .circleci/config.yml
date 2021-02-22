@@ -31,8 +31,9 @@ jobs:
       steps:
         - checkout
         - ruby/install-deps
-        - ruby/rspec-test
-        #- run: bundle exec rspec spec/controllers/checks_controller_spec.rb
+        - run:
+           name: tests
+           command: bundlex exec rspec
 workflows:
   build_test:
     jobs:
