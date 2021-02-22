@@ -28,6 +28,10 @@ jobs:
     test:
       docker:
          - image: circleci/ruby:3.0.0-node
+         - image: circleci/postgres
+           environment:
+             POSTGRES_USER: root
+             POSTGRES_PASSWORD: teamkongmdfk00
       steps:
         - checkout
         - ruby/install-deps
