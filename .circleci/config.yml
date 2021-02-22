@@ -32,6 +32,15 @@ jobs:
         - checkout
         - ruby/install-deps
         - run:
+           name: yarn install
+           command: yarn install --check-files
+        - run:
+            name: db create
+            command: bundle exec rake db:create
+        -  run: 
+            name: db load migrate
+            command: bundle exec rake db:migrate
+        - run:
            name: tests
            command: bundle exec rspec
 workflows:
