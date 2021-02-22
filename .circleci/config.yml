@@ -1,6 +1,5 @@
 version: 2.1
-orbs:
-  ruby: circleci/ruby@0.1.2
+
 jobs:
     build:
       docker:
@@ -9,13 +8,11 @@ jobs:
            environment:
              POSTGRES_USER: root
              POSTGRES_PASSWORD: teamkongmdfk00
-      executor: ruby/default
       steps:
        - checkout
        - run:
            name: bundle install
            command: bundle install
-       - ruby/bundle-install
        - run:
            name: yarn install
            command: yarn install --check-files
