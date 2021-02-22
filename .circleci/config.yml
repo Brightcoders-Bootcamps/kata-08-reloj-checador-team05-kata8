@@ -1,17 +1,56 @@
 version: 2.1
+
 orbs:
-  ruby: circleci/ruby@0.1.2
-  jobs:
+  ruby: circleci/ruby@1.1.2
+
+
+jobs:
     build:
       docker:
          - image: circleci/ruby:3.0.0-node
-      executor: ruby/default
+         - image: circleci/postgres
+           environment:
+             POSTGRES_USER: root
+             POSTGRES_PASSWORD: teamkongmdfk00
       steps:
        - checkout
+       - ruby/install-deps
        - run:
-           name: bundle install
-           command: bundle install
-       - ruby/bundle-install
+          name: yarn
+          command: yarn install --check-files
        - run:
-           name: test
+           name: db create
+           command: bundle exec rake db:create
+       - run: 
+           name: db load migrate
+           command: bundle exec rake db:migrate
+       #- run: bundle exec rspec spec/controllers/checks_controller_spec.rb
+    test:
+      docker:
+         - image: circleci/ruby:3.0.0-node
+         - image: circleci/postgres
+           environment:
+             POSTGRES_USER: root
+             POSTGRES_PASSWORD: teamkongmdfk00
+      steps:
+        - checkout
+        - ruby/install-deps
+        - run:
+           name: yarn install
+           command: yarn install --check-files
+        - run:
+            name: db create
+            command: bundle exec rake db:create
+        -  run: 
+            name: db load migrate
+            command: bundle exec rake db:migrate
+        - run:
+           name: tests
            command: bundle exec rspec
+workflows:
+  build_test:
+    jobs:
+      - build
+      - test: 
+         requires:
+           - build
