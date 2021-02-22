@@ -25,6 +25,7 @@ jobs:
        - run: 
            name: db load migrate
            command: bundle exec rake db:migrate
+       - run: bundle exec rspec spec/controllers/checks_controller_spec.rb
     test:
       docker:
          - image: circleci/ruby:3.0.0-node
