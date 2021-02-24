@@ -24,3 +24,24 @@ RSpec.describe "Checks Controller" do
         expect(type_check).to eq(:checked)
     end
 end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
