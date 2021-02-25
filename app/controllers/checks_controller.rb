@@ -15,14 +15,14 @@ class ChecksController < ApplicationController
                 checked_created = user.checks.create({type_check: type_check})
                 msg = type_check == 1 ? "Check In at #{checked_created[:created_at].to_s}" : "Check Out at #{checked_created[:created_at].to_s}"
                 flash[:notice] = msg
-                redirect_to :show
+                redirect_to '/checks'
             else
                 flash[:notice] = "You have already checked"
-                redirect_to :show
+                redirect_to '/checks'
             end
         rescue Exception => e
             flash[:alert] = "An error has ocurred. Try it later."
-            redirect_to :show
+            redirect_to '/checks'
         end
     end
 
@@ -31,7 +31,7 @@ class ChecksController < ApplicationController
         if user == nil
             @error = true
             flash[:alert] = "The private number doesn't exist"
-            redirect_to checks_path 
+            redirect_to '/checks' 
             return false
         end
         return true
