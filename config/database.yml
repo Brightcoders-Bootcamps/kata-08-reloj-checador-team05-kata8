@@ -2,16 +2,17 @@ default: &default
   adapter: postgresql
   encoding: unicode
   username: root
-  host: localhost
   password: teamkongmdfk00
   pool: 5
 
 development:
   <<: *default
+  host: postgres_db
   database: checker_db_development
 
 test:
   <<: *default
+  host: localhost
   database: checker_db_test
 
 production:

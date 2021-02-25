@@ -12,6 +12,8 @@ jobs:
            environment:
              POSTGRES_USER: root
              POSTGRES_PASSWORD: teamkongmdfk00
+      environment: 
+        RAILS_ENV: test
       steps:
        - checkout
        - ruby/install-deps
@@ -32,6 +34,8 @@ jobs:
            environment:
              POSTGRES_USER: root
              POSTGRES_PASSWORD: teamkongmdfk00
+      environment:
+        RAILS_ENV: test
       steps:
         - checkout
         - ruby/install-deps
