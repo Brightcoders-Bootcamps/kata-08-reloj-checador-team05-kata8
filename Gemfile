@@ -7,6 +7,10 @@ gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
 gem 'pg'
 # Gem to unicorn
 gem 'unicorn'
+# gems for rubycritic
+gem 'rubycritic'
+gem 'rubycritic-small-badge', :require => false
+gem 'rake'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
